@@ -31,25 +31,16 @@
         "derivedFrom": "src/audi/badge/colour.svg"
       }
     },
-    "wordmark": {
-      "colour": {
-        "path": "src/audi/wordmark/colour.svg",
-        "sourceId": "audi-wordmark-pilot-fallback-2026-05-08"
-      },
-      "black": {
-        "path": "src/audi/wordmark/black.svg",
-        "derivedFrom": "src/audi/wordmark/colour.svg"
-      },
-      "white": {
-        "path": "src/audi/wordmark/white.svg",
-        "derivedFrom": "src/audi/wordmark/colour.svg"
-      }
-    }
+    "wordmark": {}
   },
   "exceptions": [
     {
       "type": "pilot-fallback-assets",
       "note": "Pilot assets are review fallbacks to validate the pipeline. Replace with official manufacturer media-kit/brand-portal SVGs before production use."
+    },
+    {
+      "type": "wordmark-blocked-by-qa",
+      "note": "Removed the previous Audi wordmark fallback during QA: it rendered as an inaccurate/cropped third-party text mark. Audi styleguide source reviewed on 2026-05-08 points to the rings as the primary brand mark; keep wordmark empty until an official Audi wordmark/vector source is identified."
     }
   ]
 }
