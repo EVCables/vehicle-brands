@@ -5,6 +5,7 @@ import { COLOUR_MODES, MARK_TYPES, RATIOS, SAFE_AREA } from './config.js';
 import { canonicalPath, ensureDir, parseSvg, parseViewBox, readJson, serializeChildren } from './lib.js';
 
 const brands = readJson('data/brands.json');
+if (fs.existsSync('dist')) fs.rmSync('dist', { recursive: true, force: true });
 let generated = 0;
 
 for (const brand of brands) {

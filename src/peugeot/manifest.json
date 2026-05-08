@@ -23,8 +23,8 @@
         "sourceId": "peugeot-badge-pilot-fallback-2026-05-08"
       },
       "black": {
-        "path": "src/peugeot/badge/black.svg",
-        "derivedFrom": "src/peugeot/badge/colour.svg"
+        "status": "blocked",
+        "reason": "Blocked during pixel-perfect QA: generated black shield/border was not official/pixel-perfect. Requires official Peugeot vector reference before emitting black badge."
       },
       "white": {
         "path": "src/peugeot/badge/white.svg",
@@ -50,6 +50,10 @@
     {
       "type": "pilot-fallback-assets",
       "note": "Pilot assets are review fallbacks to validate the pipeline. Replace with official manufacturer media-kit/brand-portal SVGs before production use."
+    },
+    {
+      "type": "badge-black-blocked-by-pixel-qa",
+      "note": "Removed the generated Peugeot black badge during pixel-perfect QA: the border/crest geometry was not official/pixel-perfect. Keep black badge absent until an official Peugeot vector reference is sourced."
     }
   ]
 }

@@ -14,10 +14,12 @@
     "discover": "node tools/discover-sources.js",
     "format": "prettier --write .",
     "pilot": "node tools/add-pilot-assets.js",
+    "preview": "node tools/render-previews.js",
     "report": "node tools/report-status.js",
     "scaffold": "node tools/scaffold-brands.js",
     "test": "vitest run",
-    "validate": "node tools/validate-assets.js"
+    "validate": "node tools/validate-assets.js",
+    "visual-qa": "node tools/validate-visual-qa.js"
   },
   "devDependencies": {
     "@xmldom/xmldom": "^0.8.10",
