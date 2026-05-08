@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": "peugeot-badge-pilot-fallback-2026-05-08",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://www.peugeot.co.uk",
+    "retrievedAt": "2026-05-08",
+    "sourceKind": "third-party-with-official-source-reference",
+    "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
+    "checksumSha256": "2a9ce552066f31d0e2d58923b46f4af0e52dead6a47154994bb58dade3926a52",
+    "notes": "Simple Icons Peugeot mark, source points to Peugeot official site."
+  },
+  {
+    "id": "peugeot-wordmark-pilot-fallback-2026-05-08",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peugeot%20logo.svg",
+    "retrievedAt": "2026-05-08",
+    "sourceKind": "third-party-review-fallback",
+    "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
+    "checksumSha256": "80ccf649c037a9521d684cd3cd6c435ff3657f9ba66c6ef1e7188b34df50d1ef",
+    "notes": "Wikimedia Commons fallback Peugeot wordmark."
+  },
+  {
+    "id": "peugeot-logo-pilot-fallback-2026-05-08",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "composite from Simple Icons Peugeot and Commons Peugeot wordmark",
+    "retrievedAt": "2026-05-08",
+    "sourceKind": "generated-review-fallback",
+    "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
+    "checksumSha256": "97f010e402c2f0ed8f4314524bd75ea441a7a4ed670fba5204d5ab67d2a10a0b",
+    "notes": "Generated pilot composite to exercise full-logo path; replace with official combined logo when sourced."
+  }
+]

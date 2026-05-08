@@ -3,7 +3,7 @@
 | Brand | Logo | Badge | Wordmark | Colour | Black | White | Status | Notes |
 |---|---|---|---|---|---|---|---|---|
 | Abarth | pending | pending | pending | pending | pending | pending | scaffolded | |
-| Audi | pending | pending | pending | pending | pending | pending | pilot-source-discovery | Official homepage returned 403 to automated fetch; see `docs/evidence/audi-2026-05-08.md`. |
+| Audi | present | present | present | present | present | present | pilot-fallback-complete | 9 canonical + 45 generated SVGs; review fallback sources documented in manifest/sources. |
 | BMW | pending | pending | pending | pending | pending | pending | scaffolded | |
 | BYD | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Chevrolet | pending | pending | pending | pending | pending | pending | scaffolded | |
@@ -30,7 +30,7 @@
 | Mitsubishi | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Nissan | pending | pending | pending | pending | pending | pending | scaffolded | |
 | ORA | pending | pending | pending | pending | pending | pending | scaffolded | |
-| Peugeot | pending | pending | pending | pending | pending | pending | pilot-source-discovery | Homepage fetched, no candidate SVGs matched current crawler; see `docs/evidence/peugeot-2026-05-08.md`. |
+| Peugeot | present | present | present | present | present | present | pilot-fallback-complete | 9 canonical + 45 generated SVGs; full logo is generated fallback composite pending official source. |
 | Polestar | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Porsche | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Range Rover | pending | pending | pending | pending | pending | pending | scaffolded | |
@@ -41,7 +41,7 @@
 | Smart | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Subaru | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Tata | pending | pending | pending | pending | pending | pending | scaffolded | |
-| Tesla | pending | pending | pending | pending | pending | pending | pilot-source-discovery | Official homepage returned 403 to automated fetch; see `docs/evidence/tesla-2026-05-08.md`. |
+| Tesla | present | present | present | present | present | present | pilot-fallback-complete | 9 canonical + 45 generated SVGs; source split into logo/badge/wordmark from fallback SVG. |
 | Toyota | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Vauxhall | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Volkswagen | pending | pending | pending | pending | pending | pending | scaffolded | |

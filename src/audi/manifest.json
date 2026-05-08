@@ -1,11 +1,55 @@
 {
   "slug": "audi",
   "name": "Audi",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "path": "src/audi/logo/colour.svg",
+        "sourceId": "audi-logo-pilot-fallback-2026-05-08"
+      },
+      "black": {
+        "path": "src/audi/logo/black.svg",
+        "derivedFrom": "src/audi/logo/colour.svg"
+      },
+      "white": {
+        "path": "src/audi/logo/white.svg",
+        "derivedFrom": "src/audi/logo/colour.svg"
+      }
+    },
+    "badge": {
+      "colour": {
+        "path": "src/audi/badge/colour.svg",
+        "sourceId": "audi-badge-pilot-fallback-2026-05-08"
+      },
+      "black": {
+        "path": "src/audi/badge/black.svg",
+        "derivedFrom": "src/audi/badge/colour.svg"
+      },
+      "white": {
+        "path": "src/audi/badge/white.svg",
+        "derivedFrom": "src/audi/badge/colour.svg"
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "path": "src/audi/wordmark/colour.svg",
+        "sourceId": "audi-wordmark-pilot-fallback-2026-05-08"
+      },
+      "black": {
+        "path": "src/audi/wordmark/black.svg",
+        "derivedFrom": "src/audi/wordmark/colour.svg"
+      },
+      "white": {
+        "path": "src/audi/wordmark/white.svg",
+        "derivedFrom": "src/audi/wordmark/colour.svg"
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "pilot-fallback-assets",
+      "note": "Pilot assets are review fallbacks to validate the pipeline. Replace with official manufacturer media-kit/brand-portal SVGs before production use."
+    }
+  ]
 }

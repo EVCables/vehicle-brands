@@ -5,13 +5,13 @@
 # Completeness Report
 
 - Brands: 46
-- Canonical SVGs present: 0/414
-- Generated SVGs expected from present canonical assets: 0
+- Canonical SVGs present: 27/414
+- Generated SVGs expected from present canonical assets: 135
 
 | Brand | Status | Canonical SVGs |
 |---|---:|---:|
 | Abarth | scaffolded | 0/9 |
-| Audi | scaffolded | 0/9 |
+| Audi | complete | 9/9 |
 | BMW | scaffolded | 0/9 |
 | BYD | scaffolded | 0/9 |
 | Chevrolet | scaffolded | 0/9 |
@@ -38,7 +38,7 @@
 | Mitsubishi | scaffolded | 0/9 |
 | Nissan | scaffolded | 0/9 |
 | ORA | scaffolded | 0/9 |
-| Peugeot | scaffolded | 0/9 |
+| Peugeot | complete | 9/9 |
 | Polestar | scaffolded | 0/9 |
 | Porsche | scaffolded | 0/9 |
 | Range Rover | scaffolded | 0/9 |
@@ -49,7 +49,7 @@
 | Smart | scaffolded | 0/9 |
 | Subaru | scaffolded | 0/9 |
 | Tata | scaffolded | 0/9 |
-| Tesla | scaffolded | 0/9 |
+| Tesla | complete | 9/9 |
 | Toyota | scaffolded | 0/9 |
 | Vauxhall | scaffolded | 0/9 |
 | Volkswagen | scaffolded | 0/9 |
