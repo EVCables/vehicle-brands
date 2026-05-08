@@ -15,7 +15,7 @@ const PILOT_SOURCES = {
     wordmark: { kind: 'file-part', file: 'tmp/source/Tesla Motors.svg', part: 'wordmark', sourceUrl: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg', note: 'Wordmark extracted from the same fallback SVG.' }
   },
   peugeot: {
-    badge: { kind: 'simple-icon', icon: siPeugeot, sourceUrl: siPeugeot.source, note: 'Simple Icons Peugeot mark, source points to Peugeot official site.' },
+    badge: { kind: 'simple-icon', icon: siPeugeot, sourceUrl: siPeugeot.source, note: 'Simple Icons Peugeot mark, source points to Peugeot official site.', blockedModes: { black: 'Blocked during pixel-perfect QA: generated black shield/border was not official/pixel-perfect. Requires official Peugeot vector reference before emitting black badge.' } },
     wordmark: { kind: 'file', file: 'tmp/source/Peugeot logo.svg', sourceUrl: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Peugeot%20logo.svg', note: 'Wikimedia Commons fallback Peugeot wordmark.' },
     logo: { kind: 'composite-peugeot', sourceUrl: 'composite from Simple Icons Peugeot and Commons Peugeot wordmark', note: 'Generated pilot composite to exercise full-logo path; replace with official combined logo when sourced.' }
   }
@@ -53,11 +53,21 @@ for (const [brand, marks] of Object.entries(PILOT_SOURCES)) {
       note: 'Removed the previous Audi wordmark fallback during QA: it rendered as an inaccurate/cropped third-party text mark. Audi styleguide source reviewed on 2026-05-08 points to the rings as the primary brand mark; keep wordmark empty until an official Audi wordmark/vector source is identified.'
     });
   }
+  if (brand === 'peugeot') {
+    manifest.exceptions.push({
+      type: 'badge-black-blocked-by-pixel-qa',
+      note: 'Removed the generated Peugeot black badge during pixel-perfect QA: the border/crest geometry was not official/pixel-perfect. Keep black badge absent until an official Peugeot vector reference is sourced.'
+    });
+  }
   const sources = [];
 
   for (const [mark, source] of Object.entries(marks)) {
     const sourceId = `${brand}-${mark}-pilot-fallback-2026-05-08`;
     for (const [mode, overrideFill] of Object.entries(MODES)) {
+      if (source.blockedModes?.[mode]) {
+        manifest.assets[mark][mode] = { status: 'blocked', reason: source.blockedModes[mode] };
+        continue;
+      }
       const svg = buildSvg({ brand, brandName: BRAND_NAMES[brand], mark, mode, source, overrideFill });
       const out = `src/${brand}/${mark}/${mode}.svg`;
       ensureDir(path.dirname(out));
@@ -107,11 +117,7 @@ function buildSvg({ brand, brandName, mark, mode, source, overrideFill }) {
   const colour = overrideFill || COLOUR_HEX[brand] || '#000000';
   if (source.kind === 'simple-icon') {
     viewBox = '0 0 24 24';
-    if (brand === 'peugeot' && mark === 'badge' && mode === 'black') {
-      body = `<path fill="#000000" d="M5.1 0.75h13.8c1.05 0 1.9.85 1.9 1.9v11.3c0 3.85-2.6 7.35-8.8 9.3-6.2-1.95-8.8-5.45-8.8-9.3V2.65c0-1.05.85-1.9 1.9-1.9z"/><g transform="translate(2.4 2.15) scale(0.8)"><path fill="#ffffff" d="${source.icon.path}"/></g>`;
-    } else {
-      body = `<path fill="${colour}" d="${source.icon.path}"/>`;
-    }
+    body = `<path fill="${colour}" d="${source.icon.path}"/>`;
   } else if (source.kind === 'file') {
     const raw = fs.readFileSync(source.file, 'utf8');
     const { root } = parseSvg(raw, source.file);
@@ -156,4 +162,5 @@ function normalizeViewBox(viewBox) {
   parseViewBox(viewBox);
   return viewBox.trim().replace(/,/g, ' ');
 }
+
 

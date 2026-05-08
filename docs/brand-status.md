@@ -30,7 +30,7 @@
 | Mitsubishi | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Nissan | pending | pending | pending | pending | pending | pending | scaffolded | |
 | ORA | pending | pending | pending | pending | pending | pending | scaffolded | |
-| Peugeot | present | present | present | present | present | present | pilot-fallback-complete | 9 canonical + 45 generated SVGs; black badge corrected after visual QA to filled black shield treatment; full logo remains generated fallback composite pending official source. |
+| Peugeot | present | partial | present | present | partial | present | pilot-qa-blocked-black-badge | 8 canonical + 40 generated SVGs; black badge removed after pixel-perfect QA found border/crest geometry wrong. Requires official Peugeot vector reference before emitting. |
 | Polestar | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Porsche | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Range Rover | pending | pending | pending | pending | pending | pending | scaffolded | |

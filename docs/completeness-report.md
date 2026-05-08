@@ -5,8 +5,8 @@
 # Completeness Report
 
 - Brands: 46
-- Canonical SVGs present: 24/414
-- Generated SVGs expected from present canonical assets: 120
+- Canonical SVGs present: 23/414
+- Generated SVGs expected from present canonical assets: 115
 
 | Brand | Status | Canonical SVGs |
 |---|---:|---:|
@@ -38,7 +38,7 @@
 | Mitsubishi | scaffolded | 0/9 |
 | Nissan | scaffolded | 0/9 |
 | ORA | scaffolded | 0/9 |
-| Peugeot | complete | 9/9 |
+| Peugeot | partial | 8/9 |
 | Polestar | scaffolded | 0/9 |
 | Porsche | scaffolded | 0/9 |
 | Range Rover | scaffolded | 0/9 |
