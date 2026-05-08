@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "kia-brand-logo-package-2026-05-08",
+    "assetTypes": [
+      "logo",
+      "wordmark"
+    ],
+    "url": "https://worldwide.kia.com/asset/image/brand/brand-logo-story/KiaBrandLogo.zip",
+    "retrievedAt": "2026-05-08",
+    "sourceKind": "official-manufacturer-brand-package",
+    "licenceNotes": "Vehicle trademarks remain property of Kia. Official brand package used for pixel-perfect geometry; repository use remains subject to Kia brand/trademark terms.",
+    "checksumSha256": "f51dc237f78fdff4ceb92b31c278c61d8f5788f29c7ed4bff5c5bd65fad11b9e",
+    "evidencePath": "docs/evidence/kia-2026-05-08.md",
+    "notes": "Official Kia Brand Logo ZIP linked from Kia worldwide brand logo story; contains RGB digital SVG logo treatments."
+  },
+  {
+    "id": "kia-brand-logo-rgb-digital-black-2026-05-08",
+    "assetTypes": [
+      "logo",
+      "wordmark"
+    ],
+    "url": "https://worldwide.kia.com/asset/image/brand/brand-logo-story/KiaBrandLogo.zip#Black/RGB%20Color%20(For%20Digital)/Logo.svg",
+    "retrievedAt": "2026-05-08",
+    "sourceKind": "official-manufacturer-svg",
+    "licenceNotes": "Vehicle trademarks remain property of Kia.",
+    "checksumSha256": "d0acbd3754dd15d6bdc600c086efe21e6afa424b083692a227b7533b92b0e9ad",
+    "evidencePath": "docs/evidence/kia-2026-05-08.md",
+    "notes": "Official RGB digital black Kia logo SVG extracted from Kia Brand Logo ZIP. Fill is Kia official #05141F, not forced pure #000."
+  },
+  {
+    "id": "kia-brand-logo-rgb-digital-white-2026-05-08",
+    "assetTypes": [
+      "logo",
+      "wordmark"
+    ],
+    "url": "https://worldwide.kia.com/asset/image/brand/brand-logo-story/KiaBrandLogo.zip#White/RGB%20Color%20(For%20Digital)/Logo.svg",
+    "retrievedAt": "2026-05-08",
+    "sourceKind": "official-manufacturer-svg",
+    "licenceNotes": "Vehicle trademarks remain property of Kia.",
+    "checksumSha256": "19b8d27388a2c643561d225dffaab5ad855ad2cb055f2ecb0d5a49844d591d7a",
+    "evidencePath": "docs/evidence/kia-2026-05-08.md",
+    "notes": "Official RGB digital white Kia logo SVG extracted from Kia Brand Logo ZIP."
+  }
+]

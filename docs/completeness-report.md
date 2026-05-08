@@ -5,8 +5,8 @@
 # Completeness Report
 
 - Brands: 46
-- Canonical SVGs present: 23/414
-- Generated SVGs expected from present canonical assets: 115
+- Canonical SVGs present: 29/414
+- Generated SVGs expected from present canonical assets: 145
 
 | Brand | Status | Canonical SVGs |
 |---|---:|---:|
@@ -28,7 +28,7 @@
 | Jaguar | scaffolded | 0/9 |
 | Jeep | scaffolded | 0/9 |
 | KGM | scaffolded | 0/9 |
-| Kia | scaffolded | 0/9 |
+| Kia | partial | 6/9 |
 | Lexus | scaffolded | 0/9 |
 | Lotus | scaffolded | 0/9 |
 | Maserati | scaffolded | 0/9 |

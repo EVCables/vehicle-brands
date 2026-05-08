@@ -1,11 +1,55 @@
 {
   "slug": "kia",
   "name": "Kia",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "path": "src/kia/logo/colour.svg",
+        "sourceId": "kia-brand-logo-rgb-digital-black-2026-05-08"
+      },
+      "black": {
+        "path": "src/kia/logo/black.svg",
+        "sourceId": "kia-brand-logo-rgb-digital-black-2026-05-08"
+      },
+      "white": {
+        "path": "src/kia/logo/white.svg",
+        "sourceId": "kia-brand-logo-rgb-digital-white-2026-05-08"
+      }
+    },
+    "badge": {
+      "colour": {
+        "status": "blocked",
+        "note": "No standalone Kia badge/icon vector found in official Kia Brand Logo package; primary Kia mark is wordmark-style."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "No standalone Kia badge/icon vector found in official Kia Brand Logo package."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "No standalone Kia badge/icon vector found in official Kia Brand Logo package."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "path": "src/kia/wordmark/colour.svg",
+        "sourceId": "kia-brand-logo-rgb-digital-black-2026-05-08"
+      },
+      "black": {
+        "path": "src/kia/wordmark/black.svg",
+        "sourceId": "kia-brand-logo-rgb-digital-black-2026-05-08"
+      },
+      "white": {
+        "path": "src/kia/wordmark/white.svg",
+        "sourceId": "kia-brand-logo-rgb-digital-white-2026-05-08"
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "no-standalone-badge",
+      "note": "The official Kia package found in this pass contains the Kia logo/wordmark treatments, not a separate icon/badge asset."
+    }
+  ]
 }
