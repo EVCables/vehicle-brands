@@ -24,7 +24,7 @@ for (const record of approvals.records || []) {
     if (!record.reviewer) fail(`${record.asset}: approved assets require reviewer`);
     if (!record.approvedAt) fail(`${record.asset}: approved assets require approvedAt`);
     if (!record.referenceChecksumSha256) fail(`${record.asset}: approved assets require referenceChecksumSha256`);
-    if (!record.pixelTolerance || Number(record.pixelTolerance) > 0) fail(`${record.asset}: approved assets require pixelTolerance of 0 for pixel-perfect approval`);
+    if (record.pixelTolerance === undefined || Number(record.pixelTolerance) !== 0) fail(`${record.asset}: approved assets require pixelTolerance of 0 for pixel-perfect approval`);
   }
 }
 
