@@ -1,0 +1,11 @@
+{
+  "slug": "lotus",
+  "name": "Lotus",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

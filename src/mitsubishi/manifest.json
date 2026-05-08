@@ -1,0 +1,11 @@
+{
+  "slug": "mitsubishi",
+  "name": "Mitsubishi",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

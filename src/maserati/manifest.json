@@ -1,0 +1,11 @@
+{
+  "slug": "maserati",
+  "name": "Maserati",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

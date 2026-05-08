@@ -1,0 +1,11 @@
+{
+  "slug": "fiat",
+  "name": "Fiat",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

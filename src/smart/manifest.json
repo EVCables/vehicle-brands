@@ -1,0 +1,11 @@
+{
+  "slug": "smart",
+  "name": "Smart",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "assetTypes",
+      "url",
+      "retrievedAt",
+      "sourceKind"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "assetTypes": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "logo",
+            "badge",
+            "wordmark"
+          ]
+        }
+      },
+      "url": {
+        "type": "string"
+      },
+      "retrievedAt": {
+        "type": "string"
+      },
+      "sourceKind": {
+        "type": "string"
+      },
+      "licenceNotes": {
+        "type": "string"
+      },
+      "checksumSha256": {
+        "type": "string"
+      },
+      "evidencePath": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

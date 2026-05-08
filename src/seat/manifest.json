@@ -1,0 +1,11 @@
+{
+  "slug": "seat",
+  "name": "Seat",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

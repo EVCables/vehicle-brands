@@ -1,0 +1,343 @@
+[
+  {
+    "slug": "abarth",
+    "name": "Abarth",
+    "aliases": [
+      "Abarth & C. S.p.A."
+    ],
+    "officialWebsite": "https://www.abarth.com/"
+  },
+  {
+    "slug": "audi",
+    "name": "Audi",
+    "aliases": [
+      "Audi AG"
+    ],
+    "officialWebsite": "https://www.audi.com/"
+  },
+  {
+    "slug": "bmw",
+    "name": "BMW",
+    "aliases": [
+      "Bayerische Motoren Werke"
+    ],
+    "officialWebsite": "https://www.bmw.com/"
+  },
+  {
+    "slug": "byd",
+    "name": "BYD",
+    "aliases": [
+      "BYD Auto"
+    ],
+    "officialWebsite": "https://www.byd.com/"
+  },
+  {
+    "slug": "chevrolet",
+    "name": "Chevrolet",
+    "aliases": [
+      "Chevy"
+    ],
+    "officialWebsite": "https://www.chevrolet.com/"
+  },
+  {
+    "slug": "citroen",
+    "name": "Citroen",
+    "aliases": [
+      "Citro\u00ebn"
+    ],
+    "officialWebsite": "https://www.citroen.com/"
+  },
+  {
+    "slug": "cupra",
+    "name": "CUPRA",
+    "aliases": [
+      "Cupra"
+    ],
+    "officialWebsite": "https://www.cupraofficial.com/"
+  },
+  {
+    "slug": "dacia",
+    "name": "Dacia",
+    "aliases": [],
+    "officialWebsite": "https://www.dacia.com/"
+  },
+  {
+    "slug": "ds",
+    "name": "DS",
+    "aliases": [
+      "DS Automobiles"
+    ],
+    "officialWebsite": "https://www.dsautomobiles.com/"
+  },
+  {
+    "slug": "fiat",
+    "name": "Fiat",
+    "aliases": [
+      "FIAT"
+    ],
+    "officialWebsite": "https://www.fiat.com/"
+  },
+  {
+    "slug": "fisker",
+    "name": "Fisker",
+    "aliases": [],
+    "officialWebsite": "https://www.fiskerinc.com/"
+  },
+  {
+    "slug": "ford",
+    "name": "Ford",
+    "aliases": [
+      "Ford Motor Company"
+    ],
+    "officialWebsite": "https://www.ford.com/"
+  },
+  {
+    "slug": "genesis",
+    "name": "Genesis",
+    "aliases": [
+      "Genesis Motor"
+    ],
+    "officialWebsite": "https://www.genesis.com/"
+  },
+  {
+    "slug": "honda",
+    "name": "Honda",
+    "aliases": [
+      "Honda Motor Co."
+    ],
+    "officialWebsite": "https://global.honda/"
+  },
+  {
+    "slug": "hyundai",
+    "name": "Hyundai",
+    "aliases": [
+      "Hyundai Motor Company"
+    ],
+    "officialWebsite": "https://www.hyundai.com/"
+  },
+  {
+    "slug": "jaguar",
+    "name": "Jaguar",
+    "aliases": [
+      "Jaguar Cars"
+    ],
+    "officialWebsite": "https://www.jaguar.com/"
+  },
+  {
+    "slug": "jeep",
+    "name": "Jeep",
+    "aliases": [],
+    "officialWebsite": "https://www.jeep.com/"
+  },
+  {
+    "slug": "kgm",
+    "name": "KGM",
+    "aliases": [
+      "KG Mobility",
+      "SsangYong"
+    ],
+    "officialWebsite": "https://www.kg-mobility.com/"
+  },
+  {
+    "slug": "kia",
+    "name": "Kia",
+    "aliases": [
+      "Kia Corporation"
+    ],
+    "officialWebsite": "https://www.kia.com/"
+  },
+  {
+    "slug": "lexus",
+    "name": "Lexus",
+    "aliases": [],
+    "officialWebsite": "https://www.lexus.com/"
+  },
+  {
+    "slug": "lotus",
+    "name": "Lotus",
+    "aliases": [
+      "Lotus Cars"
+    ],
+    "officialWebsite": "https://www.lotuscars.com/"
+  },
+  {
+    "slug": "maserati",
+    "name": "Maserati",
+    "aliases": [],
+    "officialWebsite": "https://www.maserati.com/"
+  },
+  {
+    "slug": "mazda",
+    "name": "Mazda",
+    "aliases": [],
+    "officialWebsite": "https://www.mazda.com/"
+  },
+  {
+    "slug": "mercedes",
+    "name": "Mercedes",
+    "aliases": [
+      "Mercedes-Benz"
+    ],
+    "officialWebsite": "https://www.mercedes-benz.com/"
+  },
+  {
+    "slug": "mini",
+    "name": "Mini",
+    "aliases": [
+      "MINI"
+    ],
+    "officialWebsite": "https://www.mini.com/"
+  },
+  {
+    "slug": "mitsubishi",
+    "name": "Mitsubishi",
+    "aliases": [
+      "Mitsubishi Motors"
+    ],
+    "officialWebsite": "https://www.mitsubishi-motors.com/"
+  },
+  {
+    "slug": "nissan",
+    "name": "Nissan",
+    "aliases": [],
+    "officialWebsite": "https://www.nissan-global.com/"
+  },
+  {
+    "slug": "ora",
+    "name": "ORA",
+    "aliases": [
+      "GWM ORA"
+    ],
+    "officialWebsite": "https://www.gwm-global.com/"
+  },
+  {
+    "slug": "peugeot",
+    "name": "Peugeot",
+    "aliases": [],
+    "officialWebsite": "https://www.peugeot.com/"
+  },
+  {
+    "slug": "polestar",
+    "name": "Polestar",
+    "aliases": [],
+    "officialWebsite": "https://www.polestar.com/"
+  },
+  {
+    "slug": "porsche",
+    "name": "Porsche",
+    "aliases": [],
+    "officialWebsite": "https://www.porsche.com/"
+  },
+  {
+    "slug": "range-rover",
+    "name": "Range Rover",
+    "aliases": [
+      "Land Rover Range Rover"
+    ],
+    "officialWebsite": "https://www.landrover.com/range-rover/"
+  },
+  {
+    "slug": "renault",
+    "name": "Renault",
+    "aliases": [],
+    "officialWebsite": "https://www.renault.com/"
+  },
+  {
+    "slug": "rolls-royce",
+    "name": "Rolls-Royce",
+    "aliases": [
+      "Rolls-Royce Motor Cars"
+    ],
+    "officialWebsite": "https://www.rolls-roycemotorcars.com/"
+  },
+  {
+    "slug": "seat",
+    "name": "Seat",
+    "aliases": [
+      "SEAT"
+    ],
+    "officialWebsite": "https://www.seat.com/"
+  },
+  {
+    "slug": "skoda",
+    "name": "Skoda",
+    "aliases": [
+      "\u0160koda"
+    ],
+    "officialWebsite": "https://www.skoda-auto.com/"
+  },
+  {
+    "slug": "smart",
+    "name": "Smart",
+    "aliases": [
+      "smart Automobile"
+    ],
+    "officialWebsite": "https://www.smart.com/"
+  },
+  {
+    "slug": "subaru",
+    "name": "Subaru",
+    "aliases": [],
+    "officialWebsite": "https://www.subaru-global.com/"
+  },
+  {
+    "slug": "tata",
+    "name": "Tata",
+    "aliases": [
+      "Tata Motors"
+    ],
+    "officialWebsite": "https://www.tatamotors.com/"
+  },
+  {
+    "slug": "tesla",
+    "name": "Tesla",
+    "aliases": [
+      "Tesla Motors"
+    ],
+    "officialWebsite": "https://www.tesla.com/"
+  },
+  {
+    "slug": "toyota",
+    "name": "Toyota",
+    "aliases": [],
+    "officialWebsite": "https://www.toyota.com/"
+  },
+  {
+    "slug": "vauxhall",
+    "name": "Vauxhall",
+    "aliases": [],
+    "officialWebsite": "https://www.vauxhall.co.uk/"
+  },
+  {
+    "slug": "volkswagen",
+    "name": "Volkswagen",
+    "aliases": [
+      "VW"
+    ],
+    "officialWebsite": "https://www.volkswagen.com/"
+  },
+  {
+    "slug": "volvo",
+    "name": "Volvo",
+    "aliases": [
+      "Volvo Cars"
+    ],
+    "officialWebsite": "https://www.volvocars.com/"
+  },
+  {
+    "slug": "mg",
+    "name": "MG",
+    "aliases": [
+      "MG Motor"
+    ],
+    "officialWebsite": "https://www.mg.co.uk/"
+  },
+  {
+    "slug": "mia",
+    "name": "Mia",
+    "aliases": [
+      "Mia Electric"
+    ],
+    "officialWebsite": "https://en.wikipedia.org/wiki/Mia_electric"
+  }
+]
