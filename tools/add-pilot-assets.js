@@ -7,8 +7,7 @@ import { ensureDir, parseSvg, parseViewBox, serializeChildren, sha256 } from './
 const PILOT_SOURCES = {
   audi: {
     badge: { kind: 'simple-icon', icon: siAudi, sourceUrl: siAudi.source, note: 'Simple Icons Audi mark, source points to Audi CI rings page.' },
-    logo: { kind: 'simple-icon', icon: siAudi, sourceUrl: siAudi.source, note: 'Current Audi primary mark is the four rings; duplicated as logo and badge pending official separated full-logo guidance.' },
-    wordmark: { kind: 'file', file: 'tmp/source/AUDI Logo (2024).svg', sourceUrl: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/AUDI%20Logo%20%282024%29.svg', note: 'Wikimedia Commons fallback for Audi 2024 wordmark; needs official-source replacement if available.' }
+    logo: { kind: 'simple-icon', icon: siAudi, sourceUrl: 'https://styleguide.audi.com', note: 'Audi official styleguide identifies the rings as the primary brand mark; duplicated as logo and badge pending official separated full-logo guidance.' }
   },
   tesla: {
     logo: { kind: 'file-part', file: 'tmp/source/Tesla Motors.svg', part: 'all', sourceUrl: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg', note: 'Wikimedia Commons fallback full Tesla logo containing badge and wordmark.' },
@@ -41,12 +40,19 @@ for (const [brand, marks] of Object.entries(PILOT_SOURCES)) {
   const manifest = JSON.parse(fs.readFileSync(`src/${brand}/manifest.json`, 'utf8'));
   manifest.status = 'partial';
   manifest.assets = { logo: {}, badge: {}, wordmark: {} };
+  cleanGeneratedCanonicalSvgs(brand);
   manifest.exceptions = [
     {
       type: 'pilot-fallback-assets',
       note: 'Pilot assets are review fallbacks to validate the pipeline. Replace with official manufacturer media-kit/brand-portal SVGs before production use.'
     }
   ];
+  if (brand === 'audi') {
+    manifest.exceptions.push({
+      type: 'wordmark-blocked-by-qa',
+      note: 'Removed the previous Audi wordmark fallback during QA: it rendered as an inaccurate/cropped third-party text mark. Audi styleguide source reviewed on 2026-05-08 points to the rings as the primary brand mark; keep wordmark empty until an official Audi wordmark/vector source is identified.'
+    });
+  }
   const sources = [];
 
   for (const [mark, source] of Object.entries(marks)) {
@@ -75,6 +81,15 @@ for (const [brand, marks] of Object.entries(PILOT_SOURCES)) {
   fs.writeFileSync(`src/${brand}/sources.json`, JSON.stringify(sources, null, 2) + '\n');
 }
 
+function cleanGeneratedCanonicalSvgs(brand) {
+  for (const mark of ['logo', 'badge', 'wordmark']) {
+    for (const mode of Object.keys(MODES)) {
+      const file = `src/${brand}/${mark}/${mode}.svg`;
+      if (fs.existsSync(file)) fs.rmSync(file);
+    }
+  }
+}
+
 async function ensureSourceFile(file, url) {
   if (fs.existsSync(file)) return;
   ensureDir(path.dirname(file));
@@ -92,7 +107,11 @@ function buildSvg({ brand, brandName, mark, mode, source, overrideFill }) {
   const colour = overrideFill || COLOUR_HEX[brand] || '#000000';
   if (source.kind === 'simple-icon') {
     viewBox = '0 0 24 24';
-    body = `<path fill="${colour}" d="${source.icon.path}"/>`;
+    if (brand === 'peugeot' && mark === 'badge' && mode === 'black') {
+      body = `<path fill="#000000" d="M5.1 0.75h13.8c1.05 0 1.9.85 1.9 1.9v11.3c0 3.85-2.6 7.35-8.8 9.3-6.2-1.95-8.8-5.45-8.8-9.3V2.65c0-1.05.85-1.9 1.9-1.9z"/><g transform="translate(2.4 2.15) scale(0.8)"><path fill="#ffffff" d="${source.icon.path}"/></g>`;
+    } else {
+      body = `<path fill="${colour}" d="${source.icon.path}"/>`;
+    }
   } else if (source.kind === 'file') {
     const raw = fs.readFileSync(source.file, 'utf8');
     const { root } = parseSvg(raw, source.file);
@@ -137,3 +156,4 @@ function normalizeViewBox(viewBox) {
   parseViewBox(viewBox);
   return viewBox.trim().replace(/,/g, ' ');
 }
+

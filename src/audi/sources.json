@@ -16,23 +16,11 @@
     "assetTypes": [
       "logo"
     ],
-    "url": "https://www.audi.com/ci/en/intro/basics/rings.html",
+    "url": "https://styleguide.audi.com",
     "retrievedAt": "2026-05-08",
     "sourceKind": "third-party-with-official-source-reference",
     "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
-    "checksumSha256": "2c7da4f6496ee81a067f4d7ce9841538f3310b4af7845fce1b8925ac37199413",
-    "notes": "Current Audi primary mark is the four rings; duplicated as logo and badge pending official separated full-logo guidance."
-  },
-  {
-    "id": "audi-wordmark-pilot-fallback-2026-05-08",
-    "assetTypes": [
-      "wordmark"
-    ],
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/AUDI%20Logo%20%282024%29.svg",
-    "retrievedAt": "2026-05-08",
-    "sourceKind": "third-party-review-fallback",
-    "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
-    "checksumSha256": "42d8ea7e65b5e69be6adf95c2c5ada65f2e2efa6ed631c2e53bb93b13cbdd030",
-    "notes": "Wikimedia Commons fallback for Audi 2024 wordmark; needs official-source replacement if available."
+    "checksumSha256": "49a09fba2acdd6e06a9fa0b6bc05e62a0792b6160125a799a5f9e3721f687e98",
+    "notes": "Audi official styleguide identifies the rings as the primary brand mark; duplicated as logo and badge pending official separated full-logo guidance."
   }
 ]

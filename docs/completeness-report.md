@@ -5,13 +5,13 @@
 # Completeness Report
 
 - Brands: 46
-- Canonical SVGs present: 27/414
-- Generated SVGs expected from present canonical assets: 135
+- Canonical SVGs present: 24/414
+- Generated SVGs expected from present canonical assets: 120
 
 | Brand | Status | Canonical SVGs |
 |---|---:|---:|
 | Abarth | scaffolded | 0/9 |
-| Audi | complete | 9/9 |
+| Audi | partial | 6/9 |
 | BMW | scaffolded | 0/9 |
 | BYD | scaffolded | 0/9 |
 | Chevrolet | scaffolded | 0/9 |

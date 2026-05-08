@@ -8,15 +8,15 @@ Pilot brands selected from the plan:
 
 ## Current status
 
-The first rollout PR establishes the repository structure, schemas, validator, generator, CI, source-discovery evidence files, and **review-fallback pilot assets** for the three pilot brands.
+The first rollout PR establishes the repository structure, schemas, validator, generator, CI, source-discovery evidence files, and **review-fallback pilot assets** for the pilot brands.
 
-Automated official-site discovery has been attempted for the pilot brands:
+A QA correction was added after visual review: fallback assets must fail closed when they are visibly wrong, even if that means a pilot brand temporarily has fewer than 9 canonical files.
 
 | Brand | Discovery file | Result | Pilot asset status | Next action |
 |---|---|---|---|---|
-| Audi | `docs/evidence/audi-2026-05-08.md` | Official homepage returned HTTP 403 to automated fetch; no candidate SVGs recorded. | 9 canonical SVGs added from Simple Icons / Wikimedia Commons fallback sources. | Replace fallback sources with official manufacturer CI/media-kit assets where available. |
-| Tesla | `docs/evidence/tesla-2026-05-08.md` | Official homepage returned HTTP 403 to automated fetch; no candidate SVGs recorded. | 9 canonical SVGs added from Wikimedia Commons fallback source, split into logo/badge/wordmark. | Replace fallback source with official Tesla gallery/media assets where available. |
-| Peugeot | `docs/evidence/peugeot-2026-05-08.md` | Homepage fetched in one run but no obvious SVG candidates matched crawler patterns; later direct fetch returned 403. | 9 canonical SVGs added from Simple Icons / Wikimedia Commons fallback sources, including a generated pilot composite for full logo. | Replace generated composite with official combined logo when sourced. |
+| Audi | `docs/evidence/audi-2026-05-08.md` | `https://styleguide.audi.com` reachable; official public reference supports the Audi rings/primary mark. No accepted standalone wordmark SVG found. | 6 canonical SVGs retained for `logo` and `badge`; previous fallback `wordmark` files removed after QA failure. | Source an official Audi wordmark/vector if one is genuinely current and allowed, otherwise keep wordmark explicitly blocked. |
+| Tesla | `docs/evidence/tesla-2026-05-08.md` | Official homepage returned HTTP 403 to automated fetch; no candidate SVGs recorded. | 9 canonical SVGs added from Wikimedia Commons fallback source, split into logo/badge/wordmark. | Replace fallback source with official Tesla gallery/media assets where available and visually QA all variants. |
+| Peugeot | `docs/evidence/peugeot-2026-05-08.md` | Official Peugeot UK Lion-history page fetched with a curl-style UA and supplied raster references, but no reusable SVG candidate was found. | 9 canonical SVGs retained from fallback sources; black badge was corrected to render as a filled black badge rather than outline-only artwork. | Replace generated/fallback assets with official vector/media-kit artwork when sourced. |
 
 ## Pilot fallback caution
 
@@ -31,16 +31,20 @@ Before production use, replace fallback sources with:
 Current pilot coverage:
 
 ```text
-src/{brand}/logo/{colour,black,white}.svg
-src/{brand}/badge/{colour,black,white}.svg
-src/{brand}/wordmark/{colour,black,white}.svg
-dist/{brand}/{logo,badge,wordmark}/{colour,black,white}/{1x1,4x3,3x2,16x9,21x9}.svg
+src/tesla/{logo,badge,wordmark}/{colour,black,white}.svg
+src/peugeot/{logo,badge,wordmark}/{colour,black,white}.svg
+src/audi/{logo,badge}/{colour,black,white}.svg
+# Audi wordmark intentionally absent after QA rejection of the previous fallback.
+
+dist/{brand}/{mark}/{colour,black,white}/{1x1,4x3,3x2,16x9,21x9}.svg
 ```
 
 Validation commands:
 
 ```bash
+npm run pilot
 npm run build
 npm run validate
+npm test
 npm run report > docs/completeness-report.md
 ```
