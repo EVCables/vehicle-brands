@@ -1,0 +1,11 @@
+{
+  "slug": "genesis",
+  "name": "Genesis",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

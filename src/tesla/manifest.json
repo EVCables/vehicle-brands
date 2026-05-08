@@ -1,0 +1,55 @@
+{
+  "slug": "tesla",
+  "name": "Tesla",
+  "status": "partial",
+  "assets": {
+    "logo": {
+      "colour": {
+        "path": "src/tesla/logo/colour.svg",
+        "sourceId": "tesla-logo-pilot-fallback-2026-05-08"
+      },
+      "black": {
+        "path": "src/tesla/logo/black.svg",
+        "derivedFrom": "src/tesla/logo/colour.svg"
+      },
+      "white": {
+        "path": "src/tesla/logo/white.svg",
+        "derivedFrom": "src/tesla/logo/colour.svg"
+      }
+    },
+    "badge": {
+      "colour": {
+        "path": "src/tesla/badge/colour.svg",
+        "sourceId": "tesla-badge-pilot-fallback-2026-05-08"
+      },
+      "black": {
+        "path": "src/tesla/badge/black.svg",
+        "derivedFrom": "src/tesla/badge/colour.svg"
+      },
+      "white": {
+        "path": "src/tesla/badge/white.svg",
+        "derivedFrom": "src/tesla/badge/colour.svg"
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "path": "src/tesla/wordmark/colour.svg",
+        "sourceId": "tesla-wordmark-pilot-fallback-2026-05-08"
+      },
+      "black": {
+        "path": "src/tesla/wordmark/black.svg",
+        "derivedFrom": "src/tesla/wordmark/colour.svg"
+      },
+      "white": {
+        "path": "src/tesla/wordmark/white.svg",
+        "derivedFrom": "src/tesla/wordmark/colour.svg"
+      }
+    }
+  },
+  "exceptions": [
+    {
+      "type": "pilot-fallback-assets",
+      "note": "Pilot assets are review fallbacks to validate the pipeline. Replace with official manufacturer media-kit/brand-portal SVGs before production use."
+    }
+  ]
+}

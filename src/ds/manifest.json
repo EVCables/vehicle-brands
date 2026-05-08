@@ -1,0 +1,11 @@
+{
+  "slug": "ds",
+  "name": "DS",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

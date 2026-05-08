@@ -1,0 +1,55 @@
+{
+  "slug": "peugeot",
+  "name": "Peugeot",
+  "status": "partial",
+  "assets": {
+    "logo": {
+      "colour": {
+        "path": "src/peugeot/logo/colour.svg",
+        "sourceId": "peugeot-logo-pilot-fallback-2026-05-08"
+      },
+      "black": {
+        "path": "src/peugeot/logo/black.svg",
+        "derivedFrom": "src/peugeot/logo/colour.svg"
+      },
+      "white": {
+        "path": "src/peugeot/logo/white.svg",
+        "derivedFrom": "src/peugeot/logo/colour.svg"
+      }
+    },
+    "badge": {
+      "colour": {
+        "path": "src/peugeot/badge/colour.svg",
+        "sourceId": "peugeot-badge-pilot-fallback-2026-05-08"
+      },
+      "black": {
+        "path": "src/peugeot/badge/black.svg",
+        "derivedFrom": "src/peugeot/badge/colour.svg"
+      },
+      "white": {
+        "path": "src/peugeot/badge/white.svg",
+        "derivedFrom": "src/peugeot/badge/colour.svg"
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "path": "src/peugeot/wordmark/colour.svg",
+        "sourceId": "peugeot-wordmark-pilot-fallback-2026-05-08"
+      },
+      "black": {
+        "path": "src/peugeot/wordmark/black.svg",
+        "derivedFrom": "src/peugeot/wordmark/colour.svg"
+      },
+      "white": {
+        "path": "src/peugeot/wordmark/white.svg",
+        "derivedFrom": "src/peugeot/wordmark/colour.svg"
+      }
+    }
+  },
+  "exceptions": [
+    {
+      "type": "pilot-fallback-assets",
+      "note": "Pilot assets are review fallbacks to validate the pipeline. Replace with official manufacturer media-kit/brand-portal SVGs before production use."
+    }
+  ]
+}

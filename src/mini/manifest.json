@@ -1,0 +1,11 @@
+{
+  "slug": "mini",
+  "name": "Mini",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "byd",
+  "name": "BYD",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

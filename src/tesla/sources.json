@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tesla-logo-pilot-fallback-2026-05-08",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+    "retrievedAt": "2026-05-08",
+    "sourceKind": "third-party-review-fallback",
+    "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
+    "checksumSha256": "99e5c215eee355b225e26b3ea7a439cbb4816856ef83fab8b8fabff78713631e",
+    "notes": "Wikimedia Commons fallback full Tesla logo containing badge and wordmark."
+  },
+  {
+    "id": "tesla-badge-pilot-fallback-2026-05-08",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+    "retrievedAt": "2026-05-08",
+    "sourceKind": "third-party-review-fallback",
+    "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
+    "checksumSha256": "8c537f8945107c2b1a50f5d0045ef4a6fdae9614f04dc6d0faa265fc2ac4d0a7",
+    "notes": "Badge extracted from the same fallback SVG."
+  },
+  {
+    "id": "tesla-wordmark-pilot-fallback-2026-05-08",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+    "retrievedAt": "2026-05-08",
+    "sourceKind": "third-party-review-fallback",
+    "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
+    "checksumSha256": "14f14f4a6a372508270135e89f1c0132db0943370b241764ba2ec761f2d8e832",
+    "notes": "Wordmark extracted from the same fallback SVG."
+  }
+]

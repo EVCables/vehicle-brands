@@ -1,0 +1,11 @@
+{
+  "slug": "kia",
+  "name": "Kia",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

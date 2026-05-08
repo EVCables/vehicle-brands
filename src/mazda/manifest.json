@@ -1,0 +1,11 @@
+{
+  "slug": "mazda",
+  "name": "Mazda",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

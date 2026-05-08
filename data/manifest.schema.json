@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "slug",
+    "name",
+    "status",
+    "assets",
+    "exceptions"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "scaffolded",
+        "partial",
+        "complete",
+        "blocked"
+      ]
+    },
+    "assets": {
+      "type": "object",
+      "required": [
+        "logo",
+        "badge",
+        "wordmark"
+      ],
+      "properties": {
+        "logo": {
+          "type": "object"
+        },
+        "badge": {
+          "type": "object"
+        },
+        "wordmark": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "additionalProperties": false
+}

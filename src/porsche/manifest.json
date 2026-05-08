@@ -1,0 +1,11 @@
+{
+  "slug": "porsche",
+  "name": "Porsche",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}
