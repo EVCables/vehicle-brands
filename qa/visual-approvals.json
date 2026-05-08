@@ -2,34 +2,245 @@
   "version": 1,
   "policy": "No asset may be marked approved/pixel-perfect until it has an official manufacturer vector or approved raster reference, a rendered comparison, and named reviewer sign-off. Review-fallback assets are allowed only for pipeline pilots and must not be described as production-ready.",
   "records": [
-    { "asset": "audi/logo/colour", "status": "review-fallback", "referenceUrl": "https://styleguide.audi.com", "notes": "Audi rings fallback; official styleguide checked but canonical SVG source still needs review." },
-    { "asset": "audi/logo/black", "status": "review-fallback", "referenceUrl": "https://styleguide.audi.com", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "audi/logo/white", "status": "review-fallback", "referenceUrl": "https://styleguide.audi.com", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "audi/badge/colour", "status": "review-fallback", "referenceUrl": "https://styleguide.audi.com", "notes": "Audi rings fallback; not pixel-perfect approved." },
-    { "asset": "audi/badge/black", "status": "review-fallback", "referenceUrl": "https://styleguide.audi.com", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "audi/badge/white", "status": "review-fallback", "referenceUrl": "https://styleguide.audi.com", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "audi/wordmark/colour", "status": "blocked", "referenceUrl": "https://styleguide.audi.com", "notes": "Previous fallback failed visual QA; no official standalone wordmark accepted." },
-    { "asset": "audi/wordmark/black", "status": "blocked", "referenceUrl": "https://styleguide.audi.com", "notes": "Blocked until official wordmark source exists." },
-    { "asset": "audi/wordmark/white", "status": "blocked", "referenceUrl": "https://styleguide.audi.com", "notes": "Blocked until official wordmark source exists." },
-
-    { "asset": "tesla/logo/colour", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg", "notes": "Fallback only; official Tesla source required for pixel-perfect approval." },
-    { "asset": "tesla/logo/black", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "tesla/logo/white", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "tesla/badge/colour", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg", "notes": "Fallback only; official Tesla source required for pixel-perfect approval." },
-    { "asset": "tesla/badge/black", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "tesla/badge/white", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "tesla/wordmark/colour", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg", "notes": "Fallback only; official Tesla source required for pixel-perfect approval." },
-    { "asset": "tesla/wordmark/black", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "tesla/wordmark/white", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg", "notes": "Derived fallback; not pixel-perfect approved." },
-
-    { "asset": "peugeot/logo/colour", "status": "review-fallback", "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html", "notes": "Generated composite fallback; not pixel-perfect approved." },
-    { "asset": "peugeot/logo/black", "status": "review-fallback", "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html", "notes": "Derived composite fallback; not pixel-perfect approved." },
-    { "asset": "peugeot/logo/white", "status": "review-fallback", "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html", "notes": "Derived composite fallback; not pixel-perfect approved." },
-    { "asset": "peugeot/badge/colour", "status": "review-fallback", "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html", "notes": "Fallback vector; official page has raster visual reference only in current evidence." },
-    { "asset": "peugeot/badge/black", "status": "blocked", "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html", "notes": "Generated black badge border/crest was not official/pixel-perfect; asset intentionally absent until official vector source is available." },
-    { "asset": "peugeot/badge/white", "status": "review-fallback", "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "peugeot/wordmark/colour", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peugeot%20logo.svg", "notes": "Fallback only; official Peugeot source required for pixel-perfect approval." },
-    { "asset": "peugeot/wordmark/black", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peugeot%20logo.svg", "notes": "Derived fallback; not pixel-perfect approved." },
-    { "asset": "peugeot/wordmark/white", "status": "review-fallback", "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peugeot%20logo.svg", "notes": "Derived fallback; not pixel-perfect approved." }
+    {
+      "asset": "audi/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://styleguide.audi.com",
+      "notes": "Audi rings fallback; official styleguide checked but canonical SVG source still needs review."
+    },
+    {
+      "asset": "audi/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://styleguide.audi.com",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "audi/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://styleguide.audi.com",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "audi/badge/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://styleguide.audi.com",
+      "notes": "Audi rings fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "audi/badge/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://styleguide.audi.com",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "audi/badge/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://styleguide.audi.com",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "audi/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://styleguide.audi.com",
+      "notes": "Previous fallback failed visual QA; no official standalone wordmark accepted."
+    },
+    {
+      "asset": "audi/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://styleguide.audi.com",
+      "notes": "Blocked until official wordmark source exists."
+    },
+    {
+      "asset": "audi/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://styleguide.audi.com",
+      "notes": "Blocked until official wordmark source exists."
+    },
+    {
+      "asset": "tesla/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+      "notes": "Fallback only; official Tesla source required for pixel-perfect approval."
+    },
+    {
+      "asset": "tesla/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "tesla/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "tesla/badge/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+      "notes": "Fallback only; official Tesla source required for pixel-perfect approval."
+    },
+    {
+      "asset": "tesla/badge/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "tesla/badge/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "tesla/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+      "notes": "Fallback only; official Tesla source required for pixel-perfect approval."
+    },
+    {
+      "asset": "tesla/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "tesla/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tesla%20Motors.svg",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "peugeot/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html",
+      "notes": "Generated composite fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "peugeot/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html",
+      "notes": "Derived composite fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "peugeot/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html",
+      "notes": "Derived composite fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "peugeot/badge/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html",
+      "notes": "Fallback vector; official page has raster visual reference only in current evidence."
+    },
+    {
+      "asset": "peugeot/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html",
+      "notes": "Generated black badge border/crest was not official/pixel-perfect; asset intentionally absent until official vector source is available."
+    },
+    {
+      "asset": "peugeot/badge/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.peugeot.co.uk/about-us/brand/peugeot-magazine/the-peugeot-lion-history-of-a-symbol.html",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "peugeot/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peugeot%20logo.svg",
+      "notes": "Fallback only; official Peugeot source required for pixel-perfect approval."
+    },
+    {
+      "asset": "peugeot/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peugeot%20logo.svg",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "peugeot/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Peugeot%20logo.svg",
+      "notes": "Derived fallback; not pixel-perfect approved."
+    },
+    {
+      "asset": "kia/logo/colour",
+      "status": "approved",
+      "referenceUrl": "https://worldwide.kia.com/asset/image/brand/brand-logo-story/KiaBrandLogo.zip#Black/RGB%20Color%20(For%20Digital)/Logo.svg",
+      "referenceChecksumSha256": "d0acbd3754dd15d6bdc600c086efe21e6afa424b083692a227b7533b92b0e9ad",
+      "reviewer": "Morwenna Pendragon",
+      "approvedAt": "2026-05-08",
+      "pixelTolerance": 0,
+      "notes": "Official Kia Brand Logo package RGB digital SVG; canonical SVG preserves official path geometry and fill treatment."
+    },
+    {
+      "asset": "kia/logo/black",
+      "status": "approved",
+      "referenceUrl": "https://worldwide.kia.com/asset/image/brand/brand-logo-story/KiaBrandLogo.zip#Black/RGB%20Color%20(For%20Digital)/Logo.svg",
+      "referenceChecksumSha256": "d0acbd3754dd15d6bdc600c086efe21e6afa424b083692a227b7533b92b0e9ad",
+      "reviewer": "Morwenna Pendragon",
+      "approvedAt": "2026-05-08",
+      "pixelTolerance": 0,
+      "notes": "Official Kia Brand Logo package RGB digital SVG; canonical SVG preserves official path geometry and fill treatment."
+    },
+    {
+      "asset": "kia/logo/white",
+      "status": "approved",
+      "referenceUrl": "https://worldwide.kia.com/asset/image/brand/brand-logo-story/KiaBrandLogo.zip#White/RGB%20Color%20(For%20Digital)/Logo.svg",
+      "referenceChecksumSha256": "19b8d27388a2c643561d225dffaab5ad855ad2cb055f2ecb0d5a49844d591d7a",
+      "reviewer": "Morwenna Pendragon",
+      "approvedAt": "2026-05-08",
+      "pixelTolerance": 0,
+      "notes": "Official Kia Brand Logo package RGB digital SVG; canonical SVG preserves official path geometry and fill treatment."
+    },
+    {
+      "asset": "kia/wordmark/colour",
+      "status": "approved",
+      "referenceUrl": "https://worldwide.kia.com/asset/image/brand/brand-logo-story/KiaBrandLogo.zip#Black/RGB%20Color%20(For%20Digital)/Logo.svg",
+      "referenceChecksumSha256": "d0acbd3754dd15d6bdc600c086efe21e6afa424b083692a227b7533b92b0e9ad",
+      "reviewer": "Morwenna Pendragon",
+      "approvedAt": "2026-05-08",
+      "pixelTolerance": 0,
+      "notes": "Official Kia Brand Logo package RGB digital SVG; canonical SVG preserves official path geometry and fill treatment."
+    },
+    {
+      "asset": "kia/wordmark/black",
+      "status": "approved",
+      "referenceUrl": "https://worldwide.kia.com/asset/image/brand/brand-logo-story/KiaBrandLogo.zip#Black/RGB%20Color%20(For%20Digital)/Logo.svg",
+      "referenceChecksumSha256": "d0acbd3754dd15d6bdc600c086efe21e6afa424b083692a227b7533b92b0e9ad",
+      "reviewer": "Morwenna Pendragon",
+      "approvedAt": "2026-05-08",
+      "pixelTolerance": 0,
+      "notes": "Official Kia Brand Logo package RGB digital SVG; canonical SVG preserves official path geometry and fill treatment."
+    },
+    {
+      "asset": "kia/wordmark/white",
+      "status": "approved",
+      "referenceUrl": "https://worldwide.kia.com/asset/image/brand/brand-logo-story/KiaBrandLogo.zip#White/RGB%20Color%20(For%20Digital)/Logo.svg",
+      "referenceChecksumSha256": "19b8d27388a2c643561d225dffaab5ad855ad2cb055f2ecb0d5a49844d591d7a",
+      "reviewer": "Morwenna Pendragon",
+      "approvedAt": "2026-05-08",
+      "pixelTolerance": 0,
+      "notes": "Official Kia Brand Logo package RGB digital SVG; canonical SVG preserves official path geometry and fill treatment."
+    },
+    {
+      "asset": "kia/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://worldwide.kia.com/en/brand/our-brand/brand-elements/brand-logo-story",
+      "notes": "Official Kia package found in this pass contains logo/wordmark treatments only; no separate badge/icon vector accepted."
+    },
+    {
+      "asset": "kia/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://worldwide.kia.com/en/brand/our-brand/brand-elements/brand-logo-story",
+      "notes": "Official Kia package found in this pass contains logo/wordmark treatments only; no separate badge/icon vector accepted."
+    },
+    {
+      "asset": "kia/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://worldwide.kia.com/en/brand/our-brand/brand-elements/brand-logo-story",
+      "notes": "Official Kia package found in this pass contains logo/wordmark treatments only; no separate badge/icon vector accepted."
+    }
   ]
 }

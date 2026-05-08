@@ -20,7 +20,7 @@
 | Jaguar | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Jeep | pending | pending | pending | pending | pending | pending | scaffolded | |
 | KGM | pending | pending | pending | pending | pending | pending | scaffolded | |
-| Kia | pending | pending | pending | pending | pending | pending | scaffolded | |
+| Kia | present | missing | present | present | present | present | approved-partial-no-badge | 6 canonical + 30 generated SVGs; official Kia Brand Logo ZIP provides RGB digital logo/wordmark SVGs. Badge/icon blocked because no standalone official vector was found. |
 | Lexus | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Lotus | pending | pending | pending | pending | pending | pending | scaffolded | |
 | Maserati | pending | pending | pending | pending | pending | pending | scaffolded | |
