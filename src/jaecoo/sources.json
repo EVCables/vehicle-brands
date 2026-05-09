@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "wikimedia-commons-svg-review-fallback-jaecoo-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "0b1b1f6c251f35ec9c6c6f6f7837a58909709e5e0b7ae3c534852a5fa5bbc756",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Jaecoo wordmark fallback from Wikimedia Commons."
+  }
+]

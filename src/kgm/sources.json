@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "official-manufacturer-svg-review-fallback-kgm-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-manufacturer-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "59a2f7a10a2866c0b5fea36af3a304d4b735f0e880b22cdc1d2e73499a787606",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Official KGM website header/footer logo SVG."
+  }
+]

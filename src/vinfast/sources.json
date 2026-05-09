@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "wikimedia-commons-svg-review-fallback-vinfast-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "9f874c0bd7579aff16221a44e16e11514cff835b84e26493471c8183559ae5b0",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Fallback simple variant because official VinFast press assets exposed raster logos in this pass."
+  }
+]

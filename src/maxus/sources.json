@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "official-regional-site-svg-review-fallback-maxus-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-regional-site-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "051878bfc72ac844360b114d7d64470795cde6f4a132b9188b63fa06c9cdce27",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Referenced from SAIC Maxus UK official site via Sirv CDN."
+  }
+]

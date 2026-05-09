@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "wikimedia-commons-svg-review-fallback-omoda-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "8043bc58abc9d88e201f33d72ada81a5bc45bfb88bf7220612849167f820bf76",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Fallback because official Omoda/Jaecoo sources expose raster logos."
+  }
+]

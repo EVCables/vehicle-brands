@@ -1,11 +1,55 @@
 {
   "slug": "fisker",
   "name": "Fisker",
-  "status": "scaffolded",
+  "status": "blocked",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "status": "blocked",
+        "note": "No verified current standalone SVG source found during bulk fallback import; do not invent from raster/reference imagery."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "No verified current standalone SVG source found during bulk fallback import; do not invent from raster/reference imagery."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "No verified current standalone SVG source found during bulk fallback import; do not invent from raster/reference imagery."
+      }
+    },
+    "badge": {
+      "colour": {
+        "status": "blocked",
+        "note": "No verified current standalone SVG source found during bulk fallback import; do not invent from raster/reference imagery."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "No verified current standalone SVG source found during bulk fallback import; do not invent from raster/reference imagery."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "No verified current standalone SVG source found during bulk fallback import; do not invent from raster/reference imagery."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "status": "blocked",
+        "note": "No verified current standalone SVG source found during bulk fallback import; do not invent from raster/reference imagery."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "No verified current standalone SVG source found during bulk fallback import; do not invent from raster/reference imagery."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "No verified current standalone SVG source found during bulk fallback import; do not invent from raster/reference imagery."
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "no-verified-svg-source",
+      "note": "Fisker official site was checked during the bulk pass but exposed no usable current SVG brand asset; third-party SVG source remained unverified, so all slots are blocked rather than fabricated."
+    }
+  ]
 }

@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "official-manufacturer-svg-review-fallback-skywell-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-manufacturer-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "3270c8e9842dec8b8517a2ba88ff9210c1dc8ccf44eef755b9b0ef7fece01a7d",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Official Skywell EV global site logo SVG."
+  }
+]

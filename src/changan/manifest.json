@@ -1,11 +1,57 @@
 {
   "slug": "changan",
   "name": "Changan",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated badge; no verified standalone logo colour SVG source found."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated badge; no verified standalone logo black SVG source found."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated badge; no verified standalone logo white SVG source found."
+      }
+    },
+    "badge": {
+      "colour": {
+        "path": "src/changan/badge/colour.svg",
+        "sourceId": "wikimedia-commons-svg-review-fallback-changan-badge-2026-05-09"
+      },
+      "black": {
+        "path": "src/changan/badge/black.svg",
+        "sourceId": "wikimedia-commons-svg-review-fallback-changan-badge-2026-05-09",
+        "derivedFrom": "badge/colour"
+      },
+      "white": {
+        "path": "src/changan/badge/white.svg",
+        "sourceId": "wikimedia-commons-svg-review-fallback-changan-badge-2026-05-09",
+        "derivedFrom": "badge/colour"
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated badge; no verified standalone wordmark colour SVG source found."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated badge; no verified standalone wordmark black SVG source found."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated badge; no verified standalone wordmark white SVG source found."
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "additional-review-fallback",
+      "note": "Additional official/public SVG fallback imported; requires current-brand QA before approval."
+    }
+  ]
 }

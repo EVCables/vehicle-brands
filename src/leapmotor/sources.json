@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "wikimedia-commons-svg-review-fallback-leapmotor-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "e83db5ce01271847a82803fe677eaff8ff7414bb54d5743379032edf3c70be40",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Standalone fallback; official site uses inline symbols in JS bundle."
+  }
+]
