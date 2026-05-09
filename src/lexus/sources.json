@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "lexus-eu-homepage-html-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://www.lexus.eu/",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-manufacturer-website-html",
+    "licenceNotes": "Vehicle trademarks remain property of Lexus/Toyota. Official website SVG used only for geometry evidence; use remains subject to brand/trademark terms.",
+    "checksumSha256": "1464fcad8bcba8b5c52cff95a9f8252076c572b54c4ddc0b23c115d6208cc251",
+    "evidencePath": "docs/evidence/lexus-2026-05-09.md",
+    "notes": "Fetched Lexus Europe homepage; contains inline SVG full horizontal Lexus logo."
+  },
+  {
+    "id": "lexus-eu-inline-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://www.lexus.eu/#inline-svg-logo-viewBox-0-0-124-24",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-manufacturer-inline-svg",
+    "licenceNotes": "Vehicle trademarks remain property of Lexus/Toyota.",
+    "checksumSha256": "809499dbb95c11702a8a10590da51a8759eeee141618634947cc0584069ac2cf",
+    "evidencePath": "docs/evidence/lexus-2026-05-09.md",
+    "notes": "Official inline SVG from lexus.eu; canonical logo preserves path geometry and black fill treatment."
+  },
+  {
+    "id": "lexus-us-react-monogram-2026-05-09",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://www.lexus.com/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/logo.d0efa3d26bf7b7989613.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-manufacturer-svg",
+    "licenceNotes": "Vehicle trademarks remain property of Lexus/Toyota.",
+    "checksumSha256": "f24a5fe7a2301841f8b4d762091c9b60dbc204770e7e0049b267a5292b656502",
+    "evidencePath": "docs/evidence/lexus-2026-05-09.md",
+    "notes": "Official Lexus US website React asset; monogram-only SVG with #8C9091 fill used for badge colour only."
+  }
+]

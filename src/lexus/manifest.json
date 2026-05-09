@@ -1,11 +1,55 @@
 {
   "slug": "lexus",
   "name": "Lexus",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "path": "src/lexus/logo/colour.svg",
+        "sourceId": "lexus-eu-inline-logo-2026-05-09"
+      },
+      "black": {
+        "path": "src/lexus/logo/black.svg",
+        "sourceId": "lexus-eu-inline-logo-2026-05-09"
+      },
+      "white": {
+        "status": "blocked",
+        "note": "No official white/reversed full Lexus logo SVG found in this pass; do not recolour without official reference."
+      }
+    },
+    "badge": {
+      "colour": {
+        "path": "src/lexus/badge/colour.svg",
+        "sourceId": "lexus-us-react-monogram-2026-05-09"
+      },
+      "black": {
+        "status": "blocked",
+        "note": "No official black Lexus monogram badge SVG accepted beyond favicon/pinned-tab fallback assets."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "No official white/reversed Lexus monogram badge SVG found in this pass."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "status": "blocked",
+        "note": "No standalone Lexus wordmark-only official SVG found; full horizontal logo includes emblem plus wordmark."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "No standalone Lexus wordmark-only official SVG found."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "No standalone Lexus wordmark-only official SVG found."
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "partial-official-source-coverage",
+      "note": "Official sources found for horizontal logo black treatment and grey monogram badge only; white/reversed variants and standalone wordmark are blocked."
+    }
+  ]
 }
