@@ -1,0 +1,11 @@
+{
+  "slug": "alpine",
+  "name": "Alpine",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

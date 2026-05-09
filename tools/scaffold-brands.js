@@ -6,7 +6,12 @@ import { ensureDir, readJson } from './lib.js';
 
 for (const brand of readJson('data/brands.json')) {
   const dir = path.join('src', brand.slug);
-  for (const mark of MARK_TYPES) ensureDir(path.join(dir, mark));
+  for (const mark of MARK_TYPES) {
+    const markDir = path.join(dir, mark);
+    ensureDir(markDir);
+    const keepFile = path.join(markDir, '.gitkeep');
+    if (!fs.existsSync(keepFile)) fs.writeFileSync(keepFile, '');
+  }
   const manifest = path.join(dir, 'manifest.json');
   const sources = path.join(dir, 'sources.json');
   if (!fs.existsSync(manifest)) {

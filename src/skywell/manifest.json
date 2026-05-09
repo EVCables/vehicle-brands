@@ -1,0 +1,11 @@
+{
+  "slug": "skywell",
+  "name": "Skywell",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

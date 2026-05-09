@@ -1,0 +1,11 @@
+{
+  "slug": "gwm",
+  "name": "GWM",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}
