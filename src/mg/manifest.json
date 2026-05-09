@@ -1,11 +1,57 @@
 {
   "slug": "mg",
   "name": "MG",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "path": "src/mg/logo/colour.svg",
+        "sourceId": "simpleicons-mg-logo-2026-05-09"
+      },
+      "black": {
+        "path": "src/mg/logo/black.svg",
+        "sourceId": "simpleicons-mg-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      },
+      "white": {
+        "path": "src/mg/logo/white.svg",
+        "sourceId": "simpleicons-mg-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      }
+    },
+    "badge": {
+      "colour": {
+        "status": "blocked",
+        "note": "Simple Icons fallback populated logo; no verified standalone badge colour SVG source found in this bulk pass."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Simple Icons fallback populated logo; no verified standalone badge black SVG source found in this bulk pass."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Simple Icons fallback populated logo; no verified standalone badge white SVG source found in this bulk pass."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "status": "blocked",
+        "note": "Simple Icons fallback populated logo; no verified standalone wordmark colour SVG source found in this bulk pass."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Simple Icons fallback populated logo; no verified standalone wordmark black SVG source found in this bulk pass."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Simple Icons fallback populated logo; no verified standalone wordmark white SVG source found in this bulk pass."
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "simple-icons-review-fallback",
+      "note": "Simple Icons candidate imported as review-fallback only; requires official/current-brand QA before production approval."
+    }
+  ]
 }

@@ -34,5 +34,18 @@
     "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
     "checksumSha256": "14f14f4a6a372508270135e89f1c0132db0943370b241764ba2ec761f2d8e832",
     "notes": "Wordmark extracted from the same fallback SVG."
+  },
+  {
+    "id": "vehicleimagery-tesla-badge-2026-05-09",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/tesla_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "b005679f5dbd0ca000fcbfce5f687cda241b0cb718e6611dce746b7cd3003e0e",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-badge; upstream filename does not prove mark semantics. Current-brand review required."
   }
 ]

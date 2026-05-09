@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-ford-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/ford_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "a46aa99f7cee8bc314e7d75729690a30d99c8ce539d9e4d541bace75e7f99a18",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-logo-lockup; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

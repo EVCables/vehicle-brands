@@ -37,5 +37,18 @@
     "checksumSha256": "f24a5fe7a2301841f8b4d762091c9b60dbc204770e7e0049b267a5292b656502",
     "evidencePath": "docs/evidence/lexus-2026-05-09.md",
     "notes": "Official Lexus US website React asset; monogram-only SVG with #8C9091 fill used for badge colour only."
+  },
+  {
+    "id": "vehicleimagery-lexus-badge-2026-05-09",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/lexus_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "a1ce46aae39d96d0e59ee7c841705817db2852c62ab2d23a00c4732806b7afe1",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-badge; upstream filename does not prove mark semantics. Current-brand review required."
   }
 ]

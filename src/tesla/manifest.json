@@ -50,6 +50,10 @@
     {
       "type": "pilot-fallback-assets",
       "note": "Pilot assets are review fallbacks to validate the pipeline. Replace with official manufacturer media-kit/brand-portal SVGs before production use."
+    },
+    {
+      "type": "vehicleimagery-review-fallback",
+      "note": "Vehicle Imagery candidate imported as review-fallback only; requires official/current-brand QA before production approval."
     }
   ]
 }

@@ -1,11 +1,57 @@
 {
   "slug": "isuzu",
   "name": "Isuzu",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-wordmark candidate used for wordmark; no verified current logo colour SVG source found in this bulk pass."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-wordmark candidate used for wordmark; no verified current logo black SVG source found in this bulk pass."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-wordmark candidate used for wordmark; no verified current logo white SVG source found in this bulk pass."
+      }
+    },
+    "badge": {
+      "colour": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-wordmark candidate used for wordmark; no verified current badge colour SVG source found in this bulk pass."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-wordmark candidate used for wordmark; no verified current badge black SVG source found in this bulk pass."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-wordmark candidate used for wordmark; no verified current badge white SVG source found in this bulk pass."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "path": "src/isuzu/wordmark/colour.svg",
+        "sourceId": "vehicleimagery-isuzu-wordmark-2026-05-09"
+      },
+      "black": {
+        "path": "src/isuzu/wordmark/black.svg",
+        "sourceId": "vehicleimagery-isuzu-wordmark-2026-05-09",
+        "derivedFrom": "wordmark/colour"
+      },
+      "white": {
+        "path": "src/isuzu/wordmark/white.svg",
+        "sourceId": "vehicleimagery-isuzu-wordmark-2026-05-09",
+        "derivedFrom": "wordmark/colour"
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "vehicleimagery-review-fallback",
+      "note": "Vehicle Imagery candidate imported as review-fallback only; requires official/current-brand QA before production approval."
+    }
+  ]
 }

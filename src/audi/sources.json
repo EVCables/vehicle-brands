@@ -22,5 +22,18 @@
     "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
     "checksumSha256": "49a09fba2acdd6e06a9fa0b6bc05e62a0792b6160125a799a5f9e3721f687e98",
     "notes": "Audi official styleguide identifies the rings as the primary brand mark; duplicated as logo and badge pending official separated full-logo guidance."
+  },
+  {
+    "id": "vehicleimagery-audi-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/audi_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "2fd8b7a16d7e3e9c3d11b021d7d094b3496ddb13ade728b27705226c211558fe",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-logo-lockup; upstream filename does not prove mark semantics. Current-brand review required."
   }
 ]

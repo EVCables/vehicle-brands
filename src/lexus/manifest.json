@@ -23,12 +23,14 @@
         "sourceId": "lexus-us-react-monogram-2026-05-09"
       },
       "black": {
-        "status": "blocked",
-        "note": "No official black Lexus monogram badge SVG accepted beyond favicon/pinned-tab fallback assets."
+        "path": "src/lexus/badge/black.svg",
+        "sourceId": "vehicleimagery-lexus-badge-2026-05-09",
+        "derivedFrom": "badge/colour"
       },
       "white": {
-        "status": "blocked",
-        "note": "No official white/reversed Lexus monogram badge SVG found in this pass."
+        "path": "src/lexus/badge/white.svg",
+        "sourceId": "vehicleimagery-lexus-badge-2026-05-09",
+        "derivedFrom": "badge/colour"
       }
     },
     "wordmark": {
@@ -50,6 +52,10 @@
     {
       "type": "partial-official-source-coverage",
       "note": "Official sources found for horizontal logo black treatment and grey monogram badge only; white/reversed variants and standalone wordmark are blocked."
+    },
+    {
+      "type": "vehicleimagery-review-fallback",
+      "note": "Vehicle Imagery candidate imported as review-fallback only; requires official/current-brand QA before production approval."
     }
   ]
 }

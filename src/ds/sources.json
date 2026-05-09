@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "simpleicons-ds-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dsautomobiles.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "simple-icons-svg-review-fallback",
+    "licenceNotes": "Simple Icons SVG used as review-fallback candidate geometry under its published licence; replace with official manufacturer SVG before approval.",
+    "checksumSha256": "fde576a29c2a252ad537fe3234c5e02cbda039ee9fe3cf6718561915e0b12bdf",
+    "evidencePath": "docs/evidence/simpleicons-fallback-import-2026-05-09.md",
+    "notes": "Fallback for brands without Vehicle Imagery reference coverage; current-brand and mark-type review required."
+  }
+]
