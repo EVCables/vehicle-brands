@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "simpleicons-mg-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mg.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "simple-icons-svg-review-fallback",
+    "licenceNotes": "Simple Icons SVG used as review-fallback candidate geometry under its published licence; replace with official manufacturer SVG before approval.",
+    "checksumSha256": "51b79569d32c05fb19e99f03c8ff8edd90a445b3d8f732a9e8bd8899e7a2a350",
+    "evidencePath": "docs/evidence/simpleicons-fallback-import-2026-05-09.md",
+    "notes": "Fallback for brands without Vehicle Imagery reference coverage; current-brand and mark-type review required."
+  }
+]

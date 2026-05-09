@@ -1,11 +1,57 @@
 {
   "slug": "byd",
   "name": "BYD",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "path": "src/byd/logo/colour.svg",
+        "sourceId": "official-fallback-byd-logo-2026-05-09"
+      },
+      "black": {
+        "path": "src/byd/logo/black.svg",
+        "sourceId": "official-fallback-byd-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      },
+      "white": {
+        "path": "src/byd/logo/white.svg",
+        "sourceId": "official-fallback-byd-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      }
+    },
+    "badge": {
+      "colour": {
+        "status": "blocked",
+        "note": "Official fallback populated logo; no verified standalone badge colour SVG source found in this bulk pass."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Official fallback populated logo; no verified standalone badge black SVG source found in this bulk pass."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Official fallback populated logo; no verified standalone badge white SVG source found in this bulk pass."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "status": "blocked",
+        "note": "Official fallback populated logo; no verified standalone wordmark colour SVG source found in this bulk pass."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Official fallback populated logo; no verified standalone wordmark black SVG source found in this bulk pass."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Official fallback populated logo; no verified standalone wordmark white SVG source found in this bulk pass."
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "official-source-review-fallback",
+      "note": "Official source candidate imported as review-fallback only; named visual QA required before approval."
+    }
+  ]
 }

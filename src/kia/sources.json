@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-kia-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/kia_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "3d075aeb3c30bde269876c4c5c736960deeb42a6bd7e16014665beb1bc18821a",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-wordmark; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

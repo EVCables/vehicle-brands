@@ -34,5 +34,18 @@
     "licenceNotes": "Vehicle trademarks remain property of their owners. Pilot fallback pending official review.",
     "checksumSha256": "97f010e402c2f0ed8f4314524bd75ea441a7a4ed670fba5204d5ab67d2a10a0b",
     "notes": "Generated pilot composite to exercise full-logo path; replace with official combined logo when sourced."
+  },
+  {
+    "id": "vehicleimagery-peugeot-badge-2026-05-09",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/peugeot_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "eb770e723f5d84182a416104b11e785adcba618ec751e3580728ad249cb4fe89",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-badge; upstream filename does not prove mark semantics. Current-brand review required."
   }
 ]

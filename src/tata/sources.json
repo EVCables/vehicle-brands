@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "simpleicons-tata-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tata.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "simple-icons-svg-review-fallback",
+    "licenceNotes": "Simple Icons SVG used as review-fallback candidate geometry under its published licence; replace with official manufacturer SVG before approval.",
+    "checksumSha256": "ba567bbb17d49ca56a154e545ca2041e172b2f640738eea3c038c9bca91db002",
+    "evidencePath": "docs/evidence/simpleicons-fallback-import-2026-05-09.md",
+    "notes": "Fallback for brands without Vehicle Imagery reference coverage; current-brand and mark-type review required."
+  }
+]

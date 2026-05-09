@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-plymouth-badge-2026-05-09",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/plymouth_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "f02f8964f4b1c439eb8b25f2a2b0d5d063431166420e5fc9a7937654226bcacf",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-badge; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

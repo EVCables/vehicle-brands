@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-citroen-badge-2026-05-09",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/citroen_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "3cb12bd65faf478365b35be39639cf82c5c6f02d6735e71f24f48da6d77af305",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-badge; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

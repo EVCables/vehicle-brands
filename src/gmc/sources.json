@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-gmc-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/gmc_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "fe1135092425227fcdeee91a2b4c8ba2ab555a92842ebddc252f32e8f113cf7a",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-wordmark; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

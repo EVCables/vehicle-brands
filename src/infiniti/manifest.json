@@ -1,11 +1,57 @@
 {
   "slug": "infiniti",
   "name": "Infiniti",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "path": "src/infiniti/logo/colour.svg",
+        "sourceId": "vehicleimagery-infiniti-logo-2026-05-09"
+      },
+      "black": {
+        "path": "src/infiniti/logo/black.svg",
+        "sourceId": "vehicleimagery-infiniti-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      },
+      "white": {
+        "path": "src/infiniti/logo/white.svg",
+        "sourceId": "vehicleimagery-infiniti-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      }
+    },
+    "badge": {
+      "colour": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-logo-lockup candidate used for logo; no verified current badge colour SVG source found in this bulk pass."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-logo-lockup candidate used for logo; no verified current badge black SVG source found in this bulk pass."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-logo-lockup candidate used for logo; no verified current badge white SVG source found in this bulk pass."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-logo-lockup candidate used for logo; no verified current wordmark colour SVG source found in this bulk pass."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-logo-lockup candidate used for logo; no verified current wordmark black SVG source found in this bulk pass."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Vehicle Imagery supplied a likely-logo-lockup candidate used for logo; no verified current wordmark white SVG source found in this bulk pass."
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "vehicleimagery-review-fallback",
+      "note": "Vehicle Imagery candidate imported as review-fallback only; requires official/current-brand QA before production approval."
+    }
+  ]
 }

@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-oldsmobile-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/oldsmobile_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "677b36144126d8e93911c50e23de4abcf0b2be80c86419d8f905d8526f128575",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-logo-lockup; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

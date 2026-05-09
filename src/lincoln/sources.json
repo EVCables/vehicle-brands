@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-lincoln-badge-2026-05-09",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/lincoln_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "8c93ab7f3b0667f56445ed81c6d3007c4eace2bdf3fc59fc520acc389167bf98",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-badge; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

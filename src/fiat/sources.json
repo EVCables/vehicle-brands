@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-fiat-badge-2026-05-09",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/fiat_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "c632771aac0fad2ced231429c1fe63de2f013beb18efb9a785c1911cccb573f5",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-badge; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

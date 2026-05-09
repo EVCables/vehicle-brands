@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "official-fallback-byd-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://www.byd.com/static_material/byd/overseas/public-icon/logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-manufacturer-svg-review-fallback",
+    "licenceNotes": "Official manufacturer SVG/inline SVG used as review-fallback pending visual QA; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "2b8ca934df800f3a3da8088817de44d971068ef7e55353495ff355fa401a5e9a",
+    "evidencePath": "docs/evidence/official-fallback-import-2026-05-09.md",
+    "notes": "Official-source candidate imported quickly for bulk coverage; requires visual/current-brand approval before production approved status."
+  }
+]

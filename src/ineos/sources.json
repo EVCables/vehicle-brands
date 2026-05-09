@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-ineos-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/ineos_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "f3ccacf1ddc8ffe07f84173d8cd3ef5823d1f07667a6a2eca2d1d9ddd98d9b7d",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-wordmark; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

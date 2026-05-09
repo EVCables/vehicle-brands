@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "official-fallback-xpeng-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://a-cdn.xpeng.com//website/_next/static/media/logo-white.be6f83f5.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-manufacturer-svg-review-fallback",
+    "licenceNotes": "Official manufacturer SVG/inline SVG used as review-fallback pending visual QA; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "664eafc0ddc4bbe96e2fcf45202fa8815506d7a5e07064d2f2d12722954d1467",
+    "evidencePath": "docs/evidence/official-fallback-import-2026-05-09.md",
+    "notes": "Official-source candidate imported quickly for bulk coverage; requires visual/current-brand approval before production approved status."
+  }
+]

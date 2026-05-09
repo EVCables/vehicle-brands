@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-koenigsegg-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/koenigsegg_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "6dd30caf2881477e9efe6b548a1d17f87c7d6bdecd6239dfdf57dba11ceac092",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-wordmark; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

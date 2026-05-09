@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-mini-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/mini_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "d7ef58b5ac2ea0dea54d996a084662a41590b08cf9a1978a3092091bc9a13d0c",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-logo-lockup; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]

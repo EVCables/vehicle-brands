@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "official-fallback-geely-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://global.geely.com/#inline-logo-svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-manufacturer-inline-svg-review-fallback",
+    "licenceNotes": "Official manufacturer SVG/inline SVG used as review-fallback pending visual QA; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "2f20a1a74febbc443dc566feba1573c77f2935bbd633c8909bc9ed5e9d4af4ea",
+    "evidencePath": "docs/evidence/official-fallback-import-2026-05-09.md",
+    "notes": "Official-source candidate imported quickly for bulk coverage; requires visual/current-brand approval before production approved status."
+  }
+]

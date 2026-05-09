@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "vehicleimagery-chrysler-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://vehicleimagery.com/manufactures/chrysler_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "vehicleimagery-reference-svg-review-fallback",
+    "licenceNotes": "Vehicle Imagery SVG used as review-fallback candidate geometry only; replace with official manufacturer SVG before marking approved.",
+    "checksumSha256": "a4dcdfa71103c5829f7830df04016db55b8a2bf76a1acde7c0078cf65ae38a07",
+    "evidencePath": "docs/evidence/vehicleimagery-fallback-import-2026-05-09.md",
+    "notes": "Reference classification likely-logo-lockup; upstream filename does not prove mark semantics. Current-brand review required."
+  }
+]
