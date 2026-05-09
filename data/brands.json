@@ -8,12 +8,52 @@
     "officialWebsite": "https://www.abarth.com/"
   },
   {
+    "slug": "acura",
+    "name": "Acura",
+    "aliases": [
+      "Acura ZDX"
+    ],
+    "officialWebsite": "https://www.acura.com/"
+  },
+  {
+    "slug": "alfa-romeo",
+    "name": "Alfa Romeo",
+    "aliases": [
+      "Alfa Romeo Automobiles"
+    ],
+    "officialWebsite": "https://www.alfaromeo.com/"
+  },
+  {
+    "slug": "alpine",
+    "name": "Alpine",
+    "aliases": [
+      "Alpine Cars"
+    ],
+    "officialWebsite": "https://www.alpinecars.com/"
+  },
+  {
+    "slug": "aston-martin",
+    "name": "Aston Martin",
+    "aliases": [
+      "Aston Martin Lagonda"
+    ],
+    "officialWebsite": "https://www.astonmartin.com/"
+  },
+  {
     "slug": "audi",
     "name": "Audi",
     "aliases": [
       "Audi AG"
     ],
     "officialWebsite": "https://www.audi.com/"
+  },
+  {
+    "slug": "bentley",
+    "name": "Bentley",
+    "aliases": [
+      "Bentley Motors"
+    ],
+    "officialWebsite": "https://www.bentleymotors.com/"
   },
   {
     "slug": "bmw",
@@ -32,6 +72,20 @@
     "officialWebsite": "https://www.byd.com/"
   },
   {
+    "slug": "cadillac",
+    "name": "Cadillac",
+    "aliases": [],
+    "officialWebsite": "https://www.cadillac.com/"
+  },
+  {
+    "slug": "changan",
+    "name": "Changan",
+    "aliases": [
+      "Changan Automobile"
+    ],
+    "officialWebsite": "https://www.changan.com.cn/"
+  },
+  {
     "slug": "chevrolet",
     "name": "Chevrolet",
     "aliases": [
@@ -40,10 +94,16 @@
     "officialWebsite": "https://www.chevrolet.com/"
   },
   {
+    "slug": "chrysler",
+    "name": "Chrysler",
+    "aliases": [],
+    "officialWebsite": "https://www.chrysler.com/"
+  },
+  {
     "slug": "citroen",
     "name": "Citroen",
     "aliases": [
-      "Citro\u00ebn"
+      "Citroën"
     ],
     "officialWebsite": "https://www.citroen.com/"
   },
@@ -62,12 +122,32 @@
     "officialWebsite": "https://www.dacia.com/"
   },
   {
+    "slug": "deepal",
+    "name": "Deepal",
+    "aliases": [
+      "Changan Deepal"
+    ],
+    "officialWebsite": "https://www.deepal.com/"
+  },
+  {
+    "slug": "dodge",
+    "name": "Dodge",
+    "aliases": [],
+    "officialWebsite": "https://www.dodge.com/"
+  },
+  {
     "slug": "ds",
     "name": "DS",
     "aliases": [
       "DS Automobiles"
     ],
     "officialWebsite": "https://www.dsautomobiles.com/"
+  },
+  {
+    "slug": "ferrari",
+    "name": "Ferrari",
+    "aliases": [],
+    "officialWebsite": "https://www.ferrari.com/"
   },
   {
     "slug": "fiat",
@@ -92,12 +172,37 @@
     "officialWebsite": "https://www.ford.com/"
   },
   {
+    "slug": "geely",
+    "name": "Geely",
+    "aliases": [
+      "Geely Auto"
+    ],
+    "officialWebsite": "https://global.geely.com/"
+  },
+  {
     "slug": "genesis",
     "name": "Genesis",
     "aliases": [
       "Genesis Motor"
     ],
     "officialWebsite": "https://www.genesis.com/"
+  },
+  {
+    "slug": "gmc",
+    "name": "GMC",
+    "aliases": [
+      "General Motors Truck Company"
+    ],
+    "officialWebsite": "https://www.gmc.com/"
+  },
+  {
+    "slug": "gwm",
+    "name": "GWM",
+    "aliases": [
+      "Great Wall Motor",
+      "GWM ORA"
+    ],
+    "officialWebsite": "https://www.gwm-global.com/"
   },
   {
     "slug": "honda",
@@ -116,6 +221,12 @@
     "officialWebsite": "https://www.hyundai.com/"
   },
   {
+    "slug": "jaecoo",
+    "name": "Jaecoo",
+    "aliases": [],
+    "officialWebsite": "https://jaecoo.co.uk/"
+  },
+  {
     "slug": "jaguar",
     "name": "Jaguar",
     "aliases": [
@@ -128,6 +239,14 @@
     "name": "Jeep",
     "aliases": [],
     "officialWebsite": "https://www.jeep.com/"
+  },
+  {
+    "slug": "karma",
+    "name": "Karma",
+    "aliases": [
+      "Karma Automotive"
+    ],
+    "officialWebsite": "https://www.karmaautomotive.com/"
   },
   {
     "slug": "kgm",
@@ -147,10 +266,42 @@
     "officialWebsite": "https://www.kia.com/"
   },
   {
+    "slug": "lamborghini",
+    "name": "Lamborghini",
+    "aliases": [
+      "Automobili Lamborghini"
+    ],
+    "officialWebsite": "https://www.lamborghini.com/"
+  },
+  {
+    "slug": "land-rover",
+    "name": "Land Rover",
+    "aliases": [
+      "Land Rover UK"
+    ],
+    "officialWebsite": "https://www.landrover.com/"
+  },
+  {
+    "slug": "leapmotor",
+    "name": "Leapmotor",
+    "aliases": [
+      "Leapmotor International"
+    ],
+    "officialWebsite": "https://www.leapmotorinternational.com/"
+  },
+  {
     "slug": "lexus",
     "name": "Lexus",
     "aliases": [],
     "officialWebsite": "https://www.lexus.com/"
+  },
+  {
+    "slug": "lincoln",
+    "name": "Lincoln",
+    "aliases": [
+      "Lincoln Motor Company"
+    ],
+    "officialWebsite": "https://www.lincoln.com/"
   },
   {
     "slug": "lotus",
@@ -161,10 +312,27 @@
     "officialWebsite": "https://www.lotuscars.com/"
   },
   {
+    "slug": "lucid",
+    "name": "Lucid",
+    "aliases": [
+      "Lucid Motors"
+    ],
+    "officialWebsite": "https://lucidmotors.com/"
+  },
+  {
     "slug": "maserati",
     "name": "Maserati",
     "aliases": [],
     "officialWebsite": "https://www.maserati.com/"
+  },
+  {
+    "slug": "maxus",
+    "name": "Maxus",
+    "aliases": [
+      "LDV Maxus",
+      "SAIC Maxus"
+    ],
+    "officialWebsite": "https://www.maxus.co.uk/"
   },
   {
     "slug": "mazda",
@@ -173,12 +341,36 @@
     "officialWebsite": "https://www.mazda.com/"
   },
   {
+    "slug": "mclaren",
+    "name": "McLaren",
+    "aliases": [
+      "McLaren Automotive"
+    ],
+    "officialWebsite": "https://cars.mclaren.com/"
+  },
+  {
     "slug": "mercedes",
     "name": "Mercedes",
     "aliases": [
       "Mercedes-Benz"
     ],
     "officialWebsite": "https://www.mercedes-benz.com/"
+  },
+  {
+    "slug": "mg",
+    "name": "MG",
+    "aliases": [
+      "MG Motor"
+    ],
+    "officialWebsite": "https://www.mg.co.uk/"
+  },
+  {
+    "slug": "mia",
+    "name": "Mia",
+    "aliases": [
+      "Mia Electric"
+    ],
+    "officialWebsite": "https://en.wikipedia.org/wiki/Mia_electric"
   },
   {
     "slug": "mini",
@@ -201,6 +393,12 @@
     "name": "Nissan",
     "aliases": [],
     "officialWebsite": "https://www.nissan-global.com/"
+  },
+  {
+    "slug": "omoda",
+    "name": "Omoda",
+    "aliases": [],
+    "officialWebsite": "https://omodajaecoo.co.uk/"
   },
   {
     "slug": "ora",
@@ -243,6 +441,12 @@
     "officialWebsite": "https://www.renault.com/"
   },
   {
+    "slug": "rivian",
+    "name": "Rivian",
+    "aliases": [],
+    "officialWebsite": "https://rivian.com/"
+  },
+  {
     "slug": "rolls-royce",
     "name": "Rolls-Royce",
     "aliases": [
@@ -262,9 +466,15 @@
     "slug": "skoda",
     "name": "Skoda",
     "aliases": [
-      "\u0160koda"
+      "Škoda"
     ],
     "officialWebsite": "https://www.skoda-auto.com/"
+  },
+  {
+    "slug": "skywell",
+    "name": "Skywell",
+    "aliases": [],
+    "officialWebsite": "https://skywelluk.com/"
   },
   {
     "slug": "smart",
@@ -279,6 +489,14 @@
     "name": "Subaru",
     "aliases": [],
     "officialWebsite": "https://www.subaru-global.com/"
+  },
+  {
+    "slug": "suzuki",
+    "name": "Suzuki",
+    "aliases": [
+      "Suzuki Motor Corporation"
+    ],
+    "officialWebsite": "https://www.globalsuzuki.com/"
   },
   {
     "slug": "tata",
@@ -309,6 +527,14 @@
     "officialWebsite": "https://www.vauxhall.co.uk/"
   },
   {
+    "slug": "vinfast",
+    "name": "VinFast",
+    "aliases": [
+      "VinFast Auto"
+    ],
+    "officialWebsite": "https://vinfastauto.us/"
+  },
+  {
     "slug": "volkswagen",
     "name": "Volkswagen",
     "aliases": [
@@ -325,19 +551,12 @@
     "officialWebsite": "https://www.volvocars.com/"
   },
   {
-    "slug": "mg",
-    "name": "MG",
+    "slug": "xpeng",
+    "name": "XPENG",
     "aliases": [
-      "MG Motor"
+      "Xpeng",
+      "Xpeng Motors"
     ],
-    "officialWebsite": "https://www.mg.co.uk/"
-  },
-  {
-    "slug": "mia",
-    "name": "Mia",
-    "aliases": [
-      "Mia Electric"
-    ],
-    "officialWebsite": "https://en.wikipedia.org/wiki/Mia_electric"
+    "officialWebsite": "https://www.xpeng.com/"
   }
 ]

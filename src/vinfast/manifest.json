@@ -1,0 +1,11 @@
+{
+  "slug": "vinfast",
+  "name": "VinFast",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/EVCables/vehicle-brands/data/ev-coverage/ev-coverage.schema.json",
+  "title": "EV/PHEV model coverage",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "brandSlug",
+    "brandName",
+    "coverageStatus",
+    "updatedAt",
+    "models",
+    "sources"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "brandSlug": { "$ref": "#/$defs/slug" },
+    "brandName": { "type": "string", "minLength": 1 },
+    "coverageStatus": { "enum": ["scaffolded", "partial", "reviewed", "deprecated", "blocked"] },
+    "updatedAt": { "type": "string", "format": "date" },
+    "models": { "type": "array", "items": { "$ref": "#/$defs/model" } },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "model": {
+      "type": "object",
+      "required": ["modelSlug", "modelName", "vehicleTypes", "markets"],
+      "properties": {
+        "modelSlug": { "$ref": "#/$defs/slug" },
+        "modelName": { "type": "string", "minLength": 1 },
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "vehicleTypes": { "type": "array", "items": { "enum": ["BEV", "PHEV", "EREV", "FCEV", "HEV", "ICE", "unknown"] }, "minItems": 1 },
+        "introducedYear": { "type": "integer", "minimum": 1990, "maximum": 2035 },
+        "discontinuedYear": { "type": "integer", "minimum": 1990, "maximum": 2035 },
+        "markets": {
+          "type": "object",
+          "properties": {
+            "United Kingdom": { "$ref": "#/$defs/market" },
+            "United States": { "$ref": "#/$defs/market" }
+          },
+          "additionalProperties": false,
+          "minProperties": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "market": {
+      "type": "object",
+      "required": ["marketCode", "modelYears"],
+      "properties": {
+        "marketCode": { "enum": ["UK", "US"] },
+        "modelYears": { "type": "array", "items": { "$ref": "#/$defs/modelYear" } }
+      },
+      "additionalProperties": false
+    },
+    "modelYear": {
+      "type": "object",
+      "required": ["year", "yearKind", "availability", "trims"],
+      "properties": {
+        "year": { "type": "integer", "minimum": 1990, "maximum": 2035 },
+        "yearKind": { "enum": ["model-year", "calendar-year", "registration-year"] },
+        "availability": { "enum": ["available", "announced", "discontinued", "limited", "unknown"] },
+        "effectiveFrom": { "type": "string", "format": "date" },
+        "effectiveTo": { "type": "string", "format": "date" },
+        "trims": { "type": "array", "items": { "$ref": "#/$defs/trim" } }
+      },
+      "additionalProperties": false
+    },
+    "trim": {
+      "type": "object",
+      "required": ["trimSlug", "trimName", "powertrain", "battery", "charging", "sourceRefs"],
+      "properties": {
+        "trimSlug": { "$ref": "#/$defs/slug" },
+        "trimName": { "type": "string", "minLength": 1 },
+        "versionLabel": { "type": "string" },
+        "powertrain": { "enum": ["BEV", "PHEV", "EREV", "unknown"] },
+        "bodyStyle": { "enum": ["hatchback", "sedan", "saloon", "estate", "wagon", "suv", "crossover", "coupe", "convertible", "pickup", "van", "mpv", "unknown"] },
+        "drivetrain": { "enum": ["FWD", "RWD", "AWD", "4WD", "unknown"] },
+        "battery": { "$ref": "#/$defs/battery" },
+        "charging": { "$ref": "#/$defs/charging" },
+        "availability": { "enum": ["available", "announced", "discontinued", "limited", "unknown"] },
+        "sourceRefs": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "battery": {
+      "type": "object",
+      "required": ["capacityKwh"],
+      "properties": {
+        "capacityKwh": {
+          "type": "object",
+          "required": ["value", "kind", "precision"],
+          "properties": {
+            "value": { "type": ["number", "null"], "minimum": 0 },
+            "kind": { "enum": ["gross", "usable", "nominal", "unknown"] },
+            "precision": { "enum": ["exact", "approximate", "estimated", "unknown"] }
+          },
+          "additionalProperties": false
+        },
+        "chemistry": { "enum": ["LFP", "NMC", "NCA", "LMFP", "NiMH", "unknown"] }
+      },
+      "additionalProperties": false
+    },
+    "charging": {
+      "type": "object",
+      "required": ["inlets"],
+      "properties": {
+        "inlets": { "type": "array", "items": { "$ref": "#/$defs/inlet" }, "minItems": 1 },
+        "acCharging": { "$ref": "#/$defs/chargingPower" },
+        "dcCharging": { "$ref": "#/$defs/chargingPower" }
+      },
+      "additionalProperties": false
+    },
+    "chargingPower": {
+      "type": "object",
+      "properties": {
+        "maxPowerKw": { "type": ["number", "null"], "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "inlet": {
+      "type": "object",
+      "required": ["standard", "regionRole", "supportsAc", "supportsDc"],
+      "properties": {
+        "standard": { "enum": ["Type 1", "SAE J1772", "Type 2", "CCS1", "CCS2", "CHAdeMO", "NACS", "SAE J3400", "Tesla proprietary", "unknown"] },
+        "standardizedAs": { "type": ["string", "null"] },
+        "regionRole": { "enum": ["primary", "secondary", "adapter", "legacy", "unknown"] },
+        "supportsAc": { "type": "boolean" },
+        "supportsDc": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["id", "url", "title", "publisher", "sourceKind", "marketCode", "retrievedAt"],
+      "properties": {
+        "id": { "type": "string" },
+        "url": { "type": "string" },
+        "title": { "type": "string" },
+        "publisher": { "type": "string" },
+        "sourceKind": { "enum": ["manufacturer-spec-page", "manufacturer-configurator", "manufacturer-brochure-pdf", "manufacturer-press-release", "regulatory-database", "government-incentive-list", "owner-manual", "third-party-database", "third-party-review-fallback"] },
+        "marketCode": { "enum": ["UK", "US"] },
+        "retrievedAt": { "type": "string", "format": "date" },
+        "evidencePath": { "type": ["string", "null"] },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

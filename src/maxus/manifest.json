@@ -1,0 +1,11 @@
+{
+  "slug": "maxus",
+  "name": "Maxus",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

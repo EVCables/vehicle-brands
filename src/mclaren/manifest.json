@@ -1,0 +1,11 @@
+{
+  "slug": "mclaren",
+  "name": "McLaren",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}
