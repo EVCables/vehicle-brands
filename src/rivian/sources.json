@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "wikimedia-commons-svg-review-fallback-rivian-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "376a44002d158f6652e98d74af32f3255cb5309c43705d4515270faf5a69fcbb",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Fallback standalone SVG; official legal brand page uses inline SVG."
+  }
+]

@@ -165,6 +165,60 @@
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from badge candidate."
     },
     {
+      "asset": "alpine/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "alpine/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "alpine/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "alpine/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+      "notes": "Alpine logo black imported as review-fallback from worldvectorlogo-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "alpine/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+      "notes": "Alpine logo colour imported as review-fallback from worldvectorlogo-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "alpine/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+      "notes": "Alpine logo white imported as review-fallback from worldvectorlogo-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "alpine/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "alpine/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "alpine/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark white SVG source found; do not invent from available mark candidate."
+    },
+    {
       "asset": "aston-martin/badge/black",
       "status": "review-fallback",
       "referenceUrl": "https://vehicleimagery.com/manufactures/aston_martin_logo.svg",
@@ -597,6 +651,60 @@
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from badge candidate."
     },
     {
+      "asset": "changan/badge/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+      "notes": "Changan badge black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "changan/badge/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+      "notes": "Changan badge colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "changan/badge/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+      "notes": "Changan badge white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "changan/logo/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "changan/logo/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "changan/logo/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "changan/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "changan/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "changan/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark white SVG source found; do not invent from available mark candidate."
+    },
+    {
       "asset": "chevrolet/badge/black",
       "status": "review-fallback",
       "referenceUrl": "https://vehicleimagery.com/manufactures/chevrolet_logo.svg",
@@ -867,6 +975,60 @@
       "notes": "Blocked in Simple Icons fallback pass: no verified standalone wordmark white SVG source found; do not invent from logo candidate."
     },
     {
+      "asset": "deepal/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "deepal/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "deepal/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "deepal/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+      "notes": "Deepal logo black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "deepal/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+      "notes": "Deepal logo colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "deepal/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+      "notes": "Deepal logo white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "deepal/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "deepal/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "deepal/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark white SVG source found; do not invent from available mark candidate."
+    },
+    {
       "asset": "dodge/badge/black",
       "status": "review-fallback",
       "referenceUrl": "https://vehicleimagery.com/manufactures/dodge_logo.svg",
@@ -1083,6 +1245,60 @@
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from badge candidate."
     },
     {
+      "asset": "fisker/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://www.fiskerinc.com/",
+      "notes": "Blocked in bulk fallback pass: no verified current standalone SVG source found; do not fabricate or derive from raster/unverified references."
+    },
+    {
+      "asset": "fisker/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://www.fiskerinc.com/",
+      "notes": "Blocked in bulk fallback pass: no verified current standalone SVG source found; do not fabricate or derive from raster/unverified references."
+    },
+    {
+      "asset": "fisker/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://www.fiskerinc.com/",
+      "notes": "Blocked in bulk fallback pass: no verified current standalone SVG source found; do not fabricate or derive from raster/unverified references."
+    },
+    {
+      "asset": "fisker/logo/black",
+      "status": "blocked",
+      "referenceUrl": "https://www.fiskerinc.com/",
+      "notes": "Blocked in bulk fallback pass: no verified current standalone SVG source found; do not fabricate or derive from raster/unverified references."
+    },
+    {
+      "asset": "fisker/logo/colour",
+      "status": "blocked",
+      "referenceUrl": "https://www.fiskerinc.com/",
+      "notes": "Blocked in bulk fallback pass: no verified current standalone SVG source found; do not fabricate or derive from raster/unverified references."
+    },
+    {
+      "asset": "fisker/logo/white",
+      "status": "blocked",
+      "referenceUrl": "https://www.fiskerinc.com/",
+      "notes": "Blocked in bulk fallback pass: no verified current standalone SVG source found; do not fabricate or derive from raster/unverified references."
+    },
+    {
+      "asset": "fisker/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://www.fiskerinc.com/",
+      "notes": "Blocked in bulk fallback pass: no verified current standalone SVG source found; do not fabricate or derive from raster/unverified references."
+    },
+    {
+      "asset": "fisker/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://www.fiskerinc.com/",
+      "notes": "Blocked in bulk fallback pass: no verified current standalone SVG source found; do not fabricate or derive from raster/unverified references."
+    },
+    {
+      "asset": "fisker/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://www.fiskerinc.com/",
+      "notes": "Blocked in bulk fallback pass: no verified current standalone SVG source found; do not fabricate or derive from raster/unverified references."
+    },
+    {
       "asset": "ford/badge/black",
       "status": "blocked",
       "referenceUrl": "https://vehicleimagery.com/manufactures/ford_logo.svg",
@@ -1297,6 +1513,60 @@
       "status": "review-fallback",
       "referenceUrl": "https://vehicleimagery.com/manufactures/gmc_logo.svg",
       "notes": "GMC wordmark white imported from Vehicle Imagery as a review-fallback candidate; current-brand official-source QA required before approval. Monochrome/reversed treatment is derived fallback."
+    },
+    {
+      "asset": "gwm/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "gwm/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "gwm/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "gwm/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+      "notes": "GWM logo black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "gwm/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+      "notes": "GWM logo colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "gwm/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+      "notes": "GWM logo white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "gwm/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "gwm/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "gwm/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark white SVG source found; do not invent from available mark candidate."
     },
     {
       "asset": "honda/badge/black",
@@ -1623,6 +1893,60 @@
       "notes": "Isuzu wordmark white imported from Vehicle Imagery as a review-fallback candidate; current-brand official-source QA required before approval. Monochrome/reversed treatment is derived fallback."
     },
     {
+      "asset": "jaecoo/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "jaecoo/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "jaecoo/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "jaecoo/logo/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "jaecoo/logo/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "jaecoo/logo/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "jaecoo/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+      "notes": "Jaecoo wordmark black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "jaecoo/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+      "notes": "Jaecoo wordmark colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "jaecoo/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Jaecoo_wordmark.svg",
+      "notes": "Jaecoo wordmark white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
       "asset": "jaguar/badge/black",
       "status": "blocked",
       "referenceUrl": "https://vehicleimagery.com/manufactures/jaguar_logo.svg",
@@ -1729,6 +2053,114 @@
       "status": "blocked",
       "referenceUrl": "https://vehicleimagery.com/manufactures/jeep_logo.svg",
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from logo candidate."
+    },
+    {
+      "asset": "karma/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Karma_Automomotive_logo_2021.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "karma/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Karma_Automomotive_logo_2021.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "karma/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Karma_Automomotive_logo_2021.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "karma/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Karma_Automomotive_logo_2021.svg",
+      "notes": "Karma logo black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "karma/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Karma_Automomotive_logo_2021.svg",
+      "notes": "Karma logo colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "karma/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Karma_Automomotive_logo_2021.svg",
+      "notes": "Karma logo white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "karma/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Karma_Automomotive_textlogo_2D_2021.svg",
+      "notes": "Karma wordmark black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "karma/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Karma_Automomotive_textlogo_2D_2021.svg",
+      "notes": "Karma wordmark colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "karma/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Karma_Automomotive_textlogo_2D_2021.svg",
+      "notes": "Karma wordmark white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "kgm/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "kgm/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "kgm/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "kgm/logo/black",
+      "status": "blocked",
+      "referenceUrl": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "kgm/logo/colour",
+      "status": "blocked",
+      "referenceUrl": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "kgm/logo/white",
+      "status": "blocked",
+      "referenceUrl": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "kgm/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+      "notes": "KGM wordmark black imported as review-fallback from official-manufacturer-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "kgm/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+      "notes": "KGM wordmark colour imported as review-fallback from official-manufacturer-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "kgm/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.kg-mobility.com/images/cm/icons/icon-logo.svg",
+      "notes": "KGM wordmark white imported as review-fallback from official-manufacturer-svg-review-fallback; approval requires current-brand visual review."
     },
     {
       "asset": "kia/badge/black",
@@ -1945,6 +2377,60 @@
       "status": "blocked",
       "referenceUrl": "https://vehicleimagery.com/manufactures/land_rover_logo.svg",
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from badge candidate."
+    },
+    {
+      "asset": "leapmotor/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "leapmotor/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "leapmotor/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "leapmotor/logo/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "leapmotor/logo/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "leapmotor/logo/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "leapmotor/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+      "notes": "Leapmotor wordmark black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "leapmotor/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+      "notes": "Leapmotor wordmark colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "leapmotor/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leapmotor_logo_en.svg",
+      "notes": "Leapmotor wordmark white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
     },
     {
       "asset": "lexus/badge/black",
@@ -2229,6 +2715,60 @@
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from logo candidate."
     },
     {
+      "asset": "maxus/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "maxus/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "maxus/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "maxus/logo/black",
+      "status": "blocked",
+      "referenceUrl": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "maxus/logo/colour",
+      "status": "blocked",
+      "referenceUrl": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "maxus/logo/white",
+      "status": "blocked",
+      "referenceUrl": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "maxus/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+      "notes": "Maxus wordmark black imported as review-fallback from official-regional-site-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "maxus/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+      "notes": "Maxus wordmark colour imported as review-fallback from official-regional-site-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "maxus/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://bluesky.sirv.com/Websites/Maxus/images/maxus-logo-black.svg",
+      "notes": "Maxus wordmark white imported as review-fallback from official-regional-site-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
       "asset": "mazda/badge/black",
       "status": "review-fallback",
       "referenceUrl": "https://vehicleimagery.com/manufactures/mazda_logo.svg",
@@ -2499,6 +3039,60 @@
       "notes": "Blocked in Simple Icons fallback pass: no verified standalone wordmark white SVG source found; do not invent from logo candidate."
     },
     {
+      "asset": "mia/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "mia/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "mia/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "mia/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+      "notes": "Mia logo black imported as review-fallback from worldvectorlogo-svg-review-fallback-low-confidence; approval requires current-brand visual review."
+    },
+    {
+      "asset": "mia/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+      "notes": "Mia logo colour imported as review-fallback from worldvectorlogo-svg-review-fallback-low-confidence; approval requires current-brand visual review."
+    },
+    {
+      "asset": "mia/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+      "notes": "Mia logo white imported as review-fallback from worldvectorlogo-svg-review-fallback-low-confidence; approval requires current-brand visual review."
+    },
+    {
+      "asset": "mia/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "mia/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "mia/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark white SVG source found; do not invent from available mark candidate."
+    },
+    {
       "asset": "mini/badge/black",
       "status": "blocked",
       "referenceUrl": "https://vehicleimagery.com/manufactures/mini_logo.svg",
@@ -2713,6 +3307,114 @@
       "status": "blocked",
       "referenceUrl": "https://vehicleimagery.com/manufactures/oldsmobile_logo.svg",
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from logo candidate."
+    },
+    {
+      "asset": "omoda/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "omoda/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "omoda/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "omoda/logo/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "omoda/logo/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "omoda/logo/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "omoda/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+      "notes": "Omoda wordmark black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "omoda/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+      "notes": "Omoda wordmark colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "omoda/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Omoda_wordmark.svg",
+      "notes": "Omoda wordmark white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "ora/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ora_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "ora/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ora_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "ora/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ora_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "ora/logo/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ora_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "ora/logo/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ora_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "ora/logo/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ora_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "ora/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ora_logo.svg",
+      "notes": "ORA wordmark black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "ora/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ora_logo.svg",
+      "notes": "ORA wordmark colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "ora/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ora_logo.svg",
+      "notes": "ORA wordmark white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
     },
     {
       "asset": "peugeot/badge/black",
@@ -3039,6 +3741,60 @@
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from badge candidate."
     },
     {
+      "asset": "range-rover/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "range-rover/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "range-rover/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "range-rover/logo/black",
+      "status": "blocked",
+      "referenceUrl": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "range-rover/logo/colour",
+      "status": "blocked",
+      "referenceUrl": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "range-rover/logo/white",
+      "status": "blocked",
+      "referenceUrl": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone logo white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "range-rover/wordmark/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+      "notes": "Range Rover wordmark black imported as review-fallback from official-manufacturer-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "range-rover/wordmark/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+      "notes": "Range Rover wordmark colour imported as review-fallback from official-manufacturer-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "range-rover/wordmark/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+      "notes": "Range Rover wordmark white imported as review-fallback from official-manufacturer-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
       "asset": "renault/badge/black",
       "status": "review-fallback",
       "referenceUrl": "https://vehicleimagery.com/manufactures/renault_logo.svg",
@@ -3091,6 +3847,60 @@
       "status": "blocked",
       "referenceUrl": "https://vehicleimagery.com/manufactures/renault_logo.svg",
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from badge candidate."
+    },
+    {
+      "asset": "rivian/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "rivian/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "rivian/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "rivian/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+      "notes": "Rivian logo black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "rivian/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+      "notes": "Rivian logo colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "rivian/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+      "notes": "Rivian logo white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "rivian/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "rivian/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "rivian/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Rivian_logo.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark white SVG source found; do not invent from available mark candidate."
     },
     {
       "asset": "rolls-royce/badge/black",
@@ -3415,6 +4225,60 @@
       "status": "blocked",
       "referenceUrl": "https://vehicleimagery.com/manufactures/skoda_logo.svg",
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from badge candidate."
+    },
+    {
+      "asset": "skywell/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "skywell/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "skywell/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "skywell/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+      "notes": "Skywell logo black imported as review-fallback from official-manufacturer-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "skywell/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+      "notes": "Skywell logo colour imported as review-fallback from official-manufacturer-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "skywell/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+      "notes": "Skywell logo white imported as review-fallback from official-manufacturer-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "skywell/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "skywell/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "skywell/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://en.skywellev.com/static/img/logo_black.svg?v=v1",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark white SVG source found; do not invent from available mark candidate."
     },
     {
       "asset": "smart/badge/black",
@@ -3793,6 +4657,60 @@
       "status": "blocked",
       "referenceUrl": "https://vehicleimagery.com/manufactures/vauxhall_logo.svg",
       "notes": "Blocked in bulk fallback pass: no verified standalone wordmark white SVG source found; do not invent from badge candidate."
+    },
+    {
+      "asset": "vinfast/badge/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "vinfast/badge/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "vinfast/badge/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone badge white SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "vinfast/logo/black",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+      "notes": "VinFast logo black imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "vinfast/logo/colour",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+      "notes": "VinFast logo colour imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "vinfast/logo/white",
+      "status": "review-fallback",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+      "notes": "VinFast logo white imported as review-fallback from wikimedia-commons-svg-review-fallback; approval requires current-brand visual review."
+    },
+    {
+      "asset": "vinfast/wordmark/black",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark black SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "vinfast/wordmark/colour",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark colour SVG source found; do not invent from available mark candidate."
+    },
+    {
+      "asset": "vinfast/wordmark/white",
+      "status": "blocked",
+      "referenceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/VinFast_logo_%28simple_variant%29.svg",
+      "notes": "Blocked in additional fallback pass: no verified standalone wordmark white SVG source found; do not invent from available mark candidate."
     },
     {
       "asset": "volkswagen/badge/black",

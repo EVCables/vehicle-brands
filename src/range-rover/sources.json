@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "official-manufacturer-svg-review-fallback-range-rover-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://www.landrover.com/content/dam/lrdx/logo/Range_Rover_Black.svg.res/JLRHASH31FEE0248617BC78033AC5AB6FF581B72AC89F7E/Range_Rover_Black.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-manufacturer-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "03d66a4682a5fe9132ba2bcadfe0c4c43ea5133bd9fe86382a7f4248df2b7f2b",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Official Land Rover/JLR Range Rover wordmark SVG."
+  }
+]

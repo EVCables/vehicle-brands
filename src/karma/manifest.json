@@ -1,11 +1,59 @@
 {
   "slug": "karma",
   "name": "Karma",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "path": "src/karma/logo/colour.svg",
+        "sourceId": "wikimedia-commons-svg-review-fallback-karma-logo-2026-05-09"
+      },
+      "black": {
+        "path": "src/karma/logo/black.svg",
+        "sourceId": "wikimedia-commons-svg-review-fallback-karma-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      },
+      "white": {
+        "path": "src/karma/logo/white.svg",
+        "sourceId": "wikimedia-commons-svg-review-fallback-karma-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      }
+    },
+    "badge": {
+      "colour": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated logo, wordmark; no verified standalone badge colour SVG source found."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated logo, wordmark; no verified standalone badge black SVG source found."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated logo, wordmark; no verified standalone badge white SVG source found."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "path": "src/karma/wordmark/colour.svg",
+        "sourceId": "wikimedia-commons-svg-review-fallback-karma-wordmark-2026-05-09"
+      },
+      "black": {
+        "path": "src/karma/wordmark/black.svg",
+        "sourceId": "wikimedia-commons-svg-review-fallback-karma-wordmark-2026-05-09",
+        "derivedFrom": "wordmark/colour"
+      },
+      "white": {
+        "path": "src/karma/wordmark/white.svg",
+        "sourceId": "wikimedia-commons-svg-review-fallback-karma-wordmark-2026-05-09",
+        "derivedFrom": "wordmark/colour"
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "additional-review-fallback",
+      "note": "Additional official/public SVG fallback imported; requires current-brand QA before approval."
+    }
+  ]
 }

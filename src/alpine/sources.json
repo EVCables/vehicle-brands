@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "worldvectorlogo-svg-review-fallback-alpine-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://cdn.worldvectorlogo.com/logos/alpine-4.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "worldvectorlogo-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "549f61339aad01b7d58afa6e07f73d31cf010d47268cd8c578e33d75d1d343b4",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Alpine fallback SVG from public logo catalogue; current-brand visual review required."
+  }
+]

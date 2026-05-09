@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "wikimedia-commons-svg-review-fallback-karma-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Karma_Automomotive_logo_2021.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "9c1b074b008f64b06c53ea3700aa47274ed1fee8d8f8f154ae787c791920a140",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Karma full logo fallback; filename has upstream typo Automomotive."
+  },
+  {
+    "id": "wikimedia-commons-svg-review-fallback-karma-wordmark-2026-05-09",
+    "assetTypes": [
+      "wordmark"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Karma_Automomotive_textlogo_2D_2021.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "ac707c4b956cdcfc363348da4fb232cc13c35f0afcdf979c0a899eb0e3ce7abb",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Karma text logo fallback; filename has upstream typo Automomotive."
+  }
+]

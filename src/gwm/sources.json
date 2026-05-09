@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "wikimedia-commons-svg-review-fallback-gwm-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/GWM_2025_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "165b4b806e50397d09340bb47d8164e054955abe0c60ee9952d4f48934ae889b",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "GWM 2025 logo fallback from Wikimedia Commons."
+  }
+]

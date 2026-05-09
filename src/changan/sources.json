@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "wikimedia-commons-svg-review-fallback-changan-badge-2026-05-09",
+    "assetTypes": [
+      "badge"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Changan_icon.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "7ae66ece4e89e0c1a12182bce23659bd5b165d2c573cc1df419d2eebeb9360e9",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Changan icon fallback from Wikimedia Commons."
+  }
+]

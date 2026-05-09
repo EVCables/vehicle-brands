@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "wikimedia-commons-svg-review-fallback-deepal-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Deepal_global_logo.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "wikimedia-commons-svg-review-fallback",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "0800e4c6a281ed6380ab473b179f1a2a95604b7b952b1726635cc7ac3aed0f03",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Deepal global logo fallback from Wikimedia Commons."
+  }
+]

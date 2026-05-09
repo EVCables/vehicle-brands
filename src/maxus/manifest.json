@@ -1,11 +1,57 @@
 {
   "slug": "maxus",
   "name": "Maxus",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated wordmark; no verified standalone logo colour SVG source found."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated wordmark; no verified standalone logo black SVG source found."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated wordmark; no verified standalone logo white SVG source found."
+      }
+    },
+    "badge": {
+      "colour": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated wordmark; no verified standalone badge colour SVG source found."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated wordmark; no verified standalone badge black SVG source found."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated wordmark; no verified standalone badge white SVG source found."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "path": "src/maxus/wordmark/colour.svg",
+        "sourceId": "official-regional-site-svg-review-fallback-maxus-wordmark-2026-05-09"
+      },
+      "black": {
+        "path": "src/maxus/wordmark/black.svg",
+        "sourceId": "official-regional-site-svg-review-fallback-maxus-wordmark-2026-05-09",
+        "derivedFrom": "wordmark/colour"
+      },
+      "white": {
+        "path": "src/maxus/wordmark/white.svg",
+        "sourceId": "official-regional-site-svg-review-fallback-maxus-wordmark-2026-05-09",
+        "derivedFrom": "wordmark/colour"
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "additional-review-fallback",
+      "note": "Additional official/public SVG fallback imported; requires current-brand QA before approval."
+    }
+  ]
 }

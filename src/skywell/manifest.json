@@ -1,11 +1,57 @@
 {
   "slug": "skywell",
   "name": "Skywell",
-  "status": "scaffolded",
+  "status": "partial",
   "assets": {
-    "logo": {},
-    "badge": {},
-    "wordmark": {}
+    "logo": {
+      "colour": {
+        "path": "src/skywell/logo/colour.svg",
+        "sourceId": "official-manufacturer-svg-review-fallback-skywell-logo-2026-05-09"
+      },
+      "black": {
+        "path": "src/skywell/logo/black.svg",
+        "sourceId": "official-manufacturer-svg-review-fallback-skywell-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      },
+      "white": {
+        "path": "src/skywell/logo/white.svg",
+        "sourceId": "official-manufacturer-svg-review-fallback-skywell-logo-2026-05-09",
+        "derivedFrom": "logo/colour"
+      }
+    },
+    "badge": {
+      "colour": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated logo; no verified standalone badge colour SVG source found."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated logo; no verified standalone badge black SVG source found."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated logo; no verified standalone badge white SVG source found."
+      }
+    },
+    "wordmark": {
+      "colour": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated logo; no verified standalone wordmark colour SVG source found."
+      },
+      "black": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated logo; no verified standalone wordmark black SVG source found."
+      },
+      "white": {
+        "status": "blocked",
+        "note": "Additional fallback pass populated logo; no verified standalone wordmark white SVG source found."
+      }
+    }
   },
-  "exceptions": []
+  "exceptions": [
+    {
+      "type": "additional-review-fallback",
+      "note": "Additional official/public SVG fallback imported; requires current-brand QA before approval."
+    }
+  ]
 }

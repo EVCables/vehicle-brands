@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "worldvectorlogo-svg-review-fallback-low-confidence-mia-logo-2026-05-09",
+    "assetTypes": [
+      "logo"
+    ],
+    "url": "https://cdn.worldvectorlogo.com/logos/mia.svg",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "worldvectorlogo-svg-review-fallback-low-confidence",
+    "licenceNotes": "SVG used as review-fallback candidate only; vehicle trademarks remain property of their owners.",
+    "checksumSha256": "fa2b07f9f19f322ad08c0168e12ea50db4f779e9f33be580d205132c6e938c9a",
+    "evidencePath": "docs/evidence/additional-fallback-import-2026-05-09.md",
+    "notes": "Low-confidence Mia fallback; identity requires manual confirmation against Mia electric."
+  }
+]

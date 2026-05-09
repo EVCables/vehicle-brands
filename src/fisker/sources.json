@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "bulk-fallback-search-fisker-2026-05-09",
+    "assetTypes": [],
+    "url": "https://www.fiskerinc.com/",
+    "retrievedAt": "2026-05-09",
+    "sourceKind": "official-site-no-usable-svg",
+    "licenceNotes": "No SVG asset was imported or derived; record documents a failed official-source search only.",
+    "checksumSha256": "not-applicable-no-svg-imported",
+    "evidencePath": "docs/evidence/fisker-blocked-2026-05-09.md",
+    "notes": "Official site returned maintenance/basic page with no usable SVG logo assets during this pass; third-party candidates were not verified enough for canonical import."
+  }
+]
