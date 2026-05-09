@@ -4,8 +4,8 @@
 
 # Completeness Report
 
-- Brands: 75
-- Canonical SVGs present: 26/675
+- Brands: 90
+- Canonical SVGs present: 26/810
 - Generated SVGs expected from present canonical assets: 130
 
 | Brand | Status | Canonical SVGs |
@@ -18,6 +18,8 @@
 | Audi | partial | 6/9 |
 | Bentley | scaffolded | 0/9 |
 | BMW | scaffolded | 0/9 |
+| Bugatti | scaffolded | 0/9 |
+| Buick | scaffolded | 0/9 |
 | BYD | scaffolded | 0/9 |
 | Cadillac | scaffolded | 0/9 |
 | Changan | scaffolded | 0/9 |
@@ -38,13 +40,18 @@
 | GMC | scaffolded | 0/9 |
 | GWM | scaffolded | 0/9 |
 | Honda | scaffolded | 0/9 |
+| Hummer | scaffolded | 0/9 |
 | Hyundai | scaffolded | 0/9 |
+| INEOS | scaffolded | 0/9 |
+| Infiniti | scaffolded | 0/9 |
+| Isuzu | scaffolded | 0/9 |
 | Jaecoo | scaffolded | 0/9 |
 | Jaguar | scaffolded | 0/9 |
 | Jeep | scaffolded | 0/9 |
 | Karma | scaffolded | 0/9 |
 | KGM | scaffolded | 0/9 |
 | Kia | scaffolded | 0/9 |
+| Koenigsegg | scaffolded | 0/9 |
 | Lamborghini | scaffolded | 0/9 |
 | Land Rover | scaffolded | 0/9 |
 | Leapmotor | scaffolded | 0/9 |
@@ -57,20 +64,28 @@
 | Mazda | scaffolded | 0/9 |
 | McLaren | scaffolded | 0/9 |
 | Mercedes | scaffolded | 0/9 |
+| Mercury | scaffolded | 0/9 |
 | MG | scaffolded | 0/9 |
 | Mia | scaffolded | 0/9 |
 | Mini | scaffolded | 0/9 |
 | Mitsubishi | scaffolded | 0/9 |
 | Nissan | scaffolded | 0/9 |
+| Oldsmobile | scaffolded | 0/9 |
 | Omoda | scaffolded | 0/9 |
 | ORA | scaffolded | 0/9 |
 | Peugeot | partial | 8/9 |
+| Plymouth | scaffolded | 0/9 |
 | Polestar | scaffolded | 0/9 |
+| Pontiac | scaffolded | 0/9 |
 | Porsche | scaffolded | 0/9 |
+| RAM | scaffolded | 0/9 |
 | Range Rover | scaffolded | 0/9 |
 | Renault | scaffolded | 0/9 |
 | Rivian | scaffolded | 0/9 |
 | Rolls-Royce | scaffolded | 0/9 |
+| Saab | scaffolded | 0/9 |
+| Saturn | scaffolded | 0/9 |
+| Scion | scaffolded | 0/9 |
 | Seat | scaffolded | 0/9 |
 | Skoda | scaffolded | 0/9 |
 | Skywell | scaffolded | 0/9 |

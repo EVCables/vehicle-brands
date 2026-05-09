@@ -1,0 +1,11 @@
+{
+  "slug": "oldsmobile",
+  "name": "Oldsmobile",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

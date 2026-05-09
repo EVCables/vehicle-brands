@@ -1,0 +1,997 @@
+{
+  "source": "https://vehicleimagery.com/coverage",
+  "retrievedAt": "2026-05-09",
+  "policy": "Reference URLs and metadata only; no SVG payloads or raster assets are stored in this file.",
+  "brands": [
+    {
+      "name": "Abarth",
+      "slug": "abarth",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/abarth_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": -0.15,
+        "width": 443.91,
+        "height": 484.55
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Acura",
+      "slug": "acura",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/acura_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Alfa Romeo",
+      "slug": "alfa-romeo",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/alfa_romeo_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 55.613,
+        "height": 55.613
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Aston Martin",
+      "slug": "aston-martin",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/aston_martin_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 1024,
+        "height": 1024
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Audi",
+      "slug": "audi",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/audi_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-logo-lockup",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 112.2,
+        "minY": 227.5,
+        "width": 1689.9,
+        "height": 616
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Bentley",
+      "slug": "bentley",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/bentley_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-wordmark",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 140.53,
+        "height": 44.046
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "BMW",
+      "slug": "bmw",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/bmw_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 498.503,
+        "height": 498.503
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Bugatti",
+      "slug": "bugatti",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/bugatti_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Buick",
+      "slug": "buick",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/buick_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Cadillac",
+      "slug": "cadillac",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/cadillac_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 134.079,
+        "height": 174.679
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Chevrolet",
+      "slug": "chevrolet",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/chevrolet_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 2500,
+        "height": 2500
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Chrysler",
+      "slug": "chrysler",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/chrysler_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-logo-lockup",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 257.02,
+        "height": 90.683
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Citroën",
+      "slug": "citroen",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/citroen_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 70.8,
+        "minY": 77.5,
+        "width": 453.6,
+        "height": 440.3
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "CUPRA",
+      "slug": "cupra",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/cupra_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0.26,
+        "minY": 0.95,
+        "width": 312.19,
+        "height": 206.3
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Dodge",
+      "slug": "dodge",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/dodge_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Ferrari",
+      "slug": "ferrari",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/ferrari_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.744,
+        "height": 192.744
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Fiat",
+      "slug": "fiat",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/fiat_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 110,
+        "height": 67.691
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Ford",
+      "slug": "ford",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/ford_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-logo-lockup",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0.132,
+        "minY": 0.132,
+        "width": 22.359999999999996,
+        "height": 8.385
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Genesis",
+      "slug": "genesis",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/genesis_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 612,
+        "height": 612
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "GMC",
+      "slug": "gmc",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/gmc_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-wordmark",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 26.007,
+        "height": 5.26
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Honda",
+      "slug": "honda",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/honda_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Hummer",
+      "slug": "hummer",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/hummer_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 725,
+        "height": 725
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Hyundai",
+      "slug": "hyundai",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/hyundai_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "INEOS",
+      "slug": "ineos",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/ineos_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-wordmark",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 10,
+        "minY": 10.285,
+        "width": 380,
+        "height": 99.43
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Infiniti",
+      "slug": "infiniti",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/infiniti_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-logo-lockup",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 1,
+        "minY": 1,
+        "width": 298,
+        "height": 142.051
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Isuzu",
+      "slug": "isuzu",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/isuzu_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-wordmark",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": -0.013,
+        "minY": 0,
+        "width": 1000.1009999999999,
+        "height": 172.379
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Jaguar",
+      "slug": "jaguar",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/jaguar_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-wordmark",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 382.944,
+        "height": 47.385
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Jeep",
+      "slug": "jeep",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/jeep_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-logo-lockup",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 999.501,
+        "height": 402.709
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Kia",
+      "slug": "kia",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/kia_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-wordmark",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 522.005,
+        "height": 122.81600000000002
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Koenigsegg",
+      "slug": "koenigsegg",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/koenigsegg_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-wordmark",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": -14.63904574,
+        "minY": -4.75422936,
+        "width": 74.39504574,
+        "height": 21.71224881
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Lamborghini",
+      "slug": "lamborghini",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/lamborghini_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 5.301,
+        "minY": 4.764,
+        "width": 340,
+        "height": 390
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Land Rover",
+      "slug": "land-rover",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/land_rover_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Lexus",
+      "slug": "lexus",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/lexus_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/lincoln_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 640,
+        "height": 640
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Lotus",
+      "slug": "lotus",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/lotus_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Lucid",
+      "slug": "lucid",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/lucid_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-wordmark",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0.265,
+        "minY": 0.265,
+        "width": 76.72999999999999,
+        "height": 4.337000000000001
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Maserati",
+      "slug": "maserati",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/maserati_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-logo-lockup",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": -7.105427357601002e-15,
+        "width": 363.6,
+        "height": 159
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Mazda",
+      "slug": "mazda",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/mazda_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0.001,
+        "minY": 0,
+        "width": 241.17,
+        "height": 255.739
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "McLaren",
+      "slug": "mclaren",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/mclaren_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-wordmark",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": -19.72884698803321,
+        "width": 326.1341145230034,
+        "height": 76.59772832608634
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Mercedes-Benz",
+      "slug": "mercedes-benz",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/mercedes_benz_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 14.81,
+        "minY": 12.759,
+        "width": 232.379,
+        "height": 146.051
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Mercury",
+      "slug": "mercury",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/mercury_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 9.435,
+        "minY": 6.055,
+        "width": 234.40599999999998,
+        "height": 287.8930298078699
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "MINI",
+      "slug": "mini",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/mini_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-logo-lockup",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0.01,
+        "width": 132.292,
+        "height": 58.009
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Mitsubishi",
+      "slug": "mitsubishi",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/mitsubishi_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Nissan",
+      "slug": "nissan",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/nissan_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 504,
+        "height": 421.7
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Oldsmobile",
+      "slug": "oldsmobile",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/oldsmobile_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-logo-lockup",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": -98.06026652,
+        "minY": -21.37555337,
+        "width": 845.1915983,
+        "height": 414.26751585
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Peugeot",
+      "slug": "peugeot",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/peugeot_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0.5,
+        "minY": 0,
+        "width": 899.5,
+        "height": 990.3
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Plymouth",
+      "slug": "plymouth",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/plymouth_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Polestar",
+      "slug": "polestar",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/polestar_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": -0.1,
+        "minY": 0.29,
+        "width": 785,
+        "height": 799.42
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Pontiac",
+      "slug": "pontiac",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/pontiac_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Porsche",
+      "slug": "porsche",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/porsche_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "RAM",
+      "slug": "ram",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/ram_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 46.474,
+        "height": 47.787
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Renault",
+      "slug": "renault",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/renault_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0.306,
+        "minY": 0.394,
+        "width": 379.652,
+        "height": 500
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Rolls-Royce",
+      "slug": "rolls-royce",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/rolls_royce_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 69.121,
+        "height": 117.121
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Saab",
+      "slug": "saab",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/saab_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Saturn",
+      "slug": "saturn",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/saturn_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 1127.994,
+        "height": 1121.174
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Scion",
+      "slug": "scion",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/scion_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "SEAT",
+      "slug": "seat",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/seat_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": -0.21,
+        "minY": -1.08,
+        "width": 730.14,
+        "height": 581.08
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Škoda",
+      "slug": "skoda",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/skoda_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 993,
+        "height": 992
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "smart",
+      "slug": "smart",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/smart_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Subaru",
+      "slug": "subaru",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/subaru_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Suzuki",
+      "slug": "suzuki",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/suzuki_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 192.756,
+        "height": 192.756
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Tesla",
+      "slug": "tesla",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/tesla_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0,
+        "minY": 0,
+        "width": 1027.737,
+        "height": 1024
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Toyota",
+      "slug": "toyota",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/toyota_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": -3.1549443837488127,
+        "minY": -8.932453399976211,
+        "width": 286.6199443837488,
+        "height": 242.7024533999762
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Vauxhall",
+      "slug": "vauxhall",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/vauxhall_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 0.23999999999999977,
+        "minY": -0.23833209178588177,
+        "width": 61.860935280910816,
+        "height": 50.23833209178589
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Volkswagen",
+      "slug": "volkswagen",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/volkswagen_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": -25,
+        "minY": -25,
+        "width": 1049,
+        "height": 1049
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    },
+    {
+      "name": "Volvo",
+      "slug": "volvo",
+      "sourceUrl": "https://vehicleimagery.com/manufactures/volvo_logo.svg",
+      "sourceKind": "vehicleimagery-coverage-svg-reference",
+      "markClassification": "likely-badge",
+      "svgStatus": "ok",
+      "viewBox": {
+        "minX": 51.67309516,
+        "minY": 44.05134189,
+        "width": 307.58409681,
+        "height": 305.35493219
+      },
+      "notes": "Reference only. Upstream filename does not prove logo/badge/wordmark semantics; review current-brand correctness before importing SVG geometry."
+    }
+  ]
+}

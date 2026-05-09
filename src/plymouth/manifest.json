@@ -1,0 +1,11 @@
+{
+  "slug": "plymouth",
+  "name": "Plymouth",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}

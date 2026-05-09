@@ -1,0 +1,11 @@
+{
+  "slug": "scion",
+  "name": "Scion",
+  "status": "scaffolded",
+  "assets": {
+    "logo": {},
+    "badge": {},
+    "wordmark": {}
+  },
+  "exceptions": []
+}
