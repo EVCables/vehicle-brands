@@ -12,6 +12,7 @@
   "scripts": {
     "build": "node tools/generate-ratios.js",
     "discover": "node tools/discover-sources.js",
+    "discover:references": "node tools/discover-reference-sources.js",
     "format": "prettier --write .",
     "pilot": "node tools/add-pilot-assets.js",
     "preview": "node tools/render-previews.js",

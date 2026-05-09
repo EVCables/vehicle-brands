@@ -37,10 +37,13 @@ export function validateRepository({ strict = false } = {}) {
   const ajv = new Ajv2020({ allErrors: true });
   const validateManifestSchema = ajv.compile(readJson('data/manifest.schema.json'));
   const validateSourcesSchema = ajv.compile(readJson('data/sources.schema.json'));
+  const validateBrandColoursSchema = ajv.compile(readJson('data/brand-colours.schema.json'));
   const errors = [];
   const fail = (message) => errors.push(message);
 
   const brands = readJson('data/brands.json');
+  const brandColours = readJson('data/brand-colours.json');
+  if (!validateBrandColoursSchema(brandColours)) fail(`brand-colours schema ${ajv.errorsText(validateBrandColoursSchema.errors)}`);
   const slugs = new Set();
   for (const brand of brands) {
     if (slugs.has(brand.slug)) fail(`duplicate brand slug: ${brand.slug}`);
@@ -67,6 +70,10 @@ export function validateRepository({ strict = false } = {}) {
         catch (error) { fail(error.message); }
       } else if (strict) fail(`${brand.slug}: missing ${mark}/${mode}.svg`);
     }
+  }
+
+  for (const colourRecord of brandColours) {
+    if (!slugs.has(colourRecord.slug)) fail(`brand-colours: unknown brand slug ${colourRecord.slug}`);
   }
 
   for (const file of fg.sync('dist/**/*.svg')) {

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["slug", "name", "colours"],
+    "properties": {
+      "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "name": { "type": "string" },
+      "colours": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["role", "hex", "sourceKind", "retrievedAt"],
+          "properties": {
+            "role": {
+              "type": "string",
+              "description": "primary, secondary, accent, black, white, etc."
+            },
+            "hex": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+            "sourceKind": { "type": "string" },
+            "sourceUrl": { "type": "string" },
+            "retrievedAt": { "type": "string" },
+            "notes": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "notes": { "type": "string" }
+    },
+    "additionalProperties": false
+  }
+}

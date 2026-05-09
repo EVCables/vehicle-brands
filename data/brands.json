@@ -64,6 +64,22 @@
     "officialWebsite": "https://www.bmw.com/"
   },
   {
+    "slug": "bugatti",
+    "name": "Bugatti",
+    "aliases": [
+      "Bugatti Automobiles"
+    ],
+    "officialWebsite": "https://www.bugatti.com/"
+  },
+  {
+    "slug": "buick",
+    "name": "Buick",
+    "aliases": [
+      "Buick Motor Division"
+    ],
+    "officialWebsite": "https://www.buick.com/"
+  },
+  {
     "slug": "byd",
     "name": "BYD",
     "aliases": [
@@ -213,12 +229,45 @@
     "officialWebsite": "https://global.honda/"
   },
   {
+    "slug": "hummer",
+    "name": "Hummer",
+    "aliases": [
+      "GMC Hummer EV"
+    ],
+    "officialWebsite": "https://www.gmc.com/electric/hummer-ev"
+  },
+  {
     "slug": "hyundai",
     "name": "Hyundai",
     "aliases": [
       "Hyundai Motor Company"
     ],
     "officialWebsite": "https://www.hyundai.com/"
+  },
+  {
+    "slug": "ineos",
+    "name": "INEOS",
+    "aliases": [
+      "INEOS Automotive",
+      "INEOS Grenadier"
+    ],
+    "officialWebsite": "https://ineosgrenadier.com/"
+  },
+  {
+    "slug": "infiniti",
+    "name": "Infiniti",
+    "aliases": [
+      "INFINITI"
+    ],
+    "officialWebsite": "https://www.infiniti.com/"
+  },
+  {
+    "slug": "isuzu",
+    "name": "Isuzu",
+    "aliases": [
+      "Isuzu Motors"
+    ],
+    "officialWebsite": "https://www.isuzu.co.jp/world/"
   },
   {
     "slug": "jaecoo",
@@ -264,6 +313,14 @@
       "Kia Corporation"
     ],
     "officialWebsite": "https://www.kia.com/"
+  },
+  {
+    "slug": "koenigsegg",
+    "name": "Koenigsegg",
+    "aliases": [
+      "Koenigsegg Automotive"
+    ],
+    "officialWebsite": "https://www.koenigsegg.com/"
   },
   {
     "slug": "lamborghini",
@@ -357,6 +414,14 @@
     "officialWebsite": "https://www.mercedes-benz.com/"
   },
   {
+    "slug": "mercury",
+    "name": "Mercury",
+    "aliases": [
+      "Mercury (Ford Motor Company)"
+    ],
+    "officialWebsite": "https://www.ford.com/"
+  },
+  {
     "slug": "mg",
     "name": "MG",
     "aliases": [
@@ -395,6 +460,14 @@
     "officialWebsite": "https://www.nissan-global.com/"
   },
   {
+    "slug": "oldsmobile",
+    "name": "Oldsmobile",
+    "aliases": [
+      "Oldsmobile Division"
+    ],
+    "officialWebsite": "https://www.gm.com/"
+  },
+  {
     "slug": "omoda",
     "name": "Omoda",
     "aliases": [],
@@ -415,16 +488,40 @@
     "officialWebsite": "https://www.peugeot.com/"
   },
   {
+    "slug": "plymouth",
+    "name": "Plymouth",
+    "aliases": [
+      "Plymouth (Chrysler)"
+    ],
+    "officialWebsite": "https://www.stellantis.com/"
+  },
+  {
     "slug": "polestar",
     "name": "Polestar",
     "aliases": [],
     "officialWebsite": "https://www.polestar.com/"
   },
   {
+    "slug": "pontiac",
+    "name": "Pontiac",
+    "aliases": [
+      "Pontiac Motor Division"
+    ],
+    "officialWebsite": "https://www.gm.com/"
+  },
+  {
     "slug": "porsche",
     "name": "Porsche",
     "aliases": [],
     "officialWebsite": "https://www.porsche.com/"
+  },
+  {
+    "slug": "ram",
+    "name": "RAM",
+    "aliases": [
+      "Ram Trucks"
+    ],
+    "officialWebsite": "https://www.ramtrucks.com/"
   },
   {
     "slug": "range-rover",
@@ -453,6 +550,30 @@
       "Rolls-Royce Motor Cars"
     ],
     "officialWebsite": "https://www.rolls-roycemotorcars.com/"
+  },
+  {
+    "slug": "saab",
+    "name": "Saab",
+    "aliases": [
+      "Saab Automobile"
+    ],
+    "officialWebsite": "https://www.saab.com/"
+  },
+  {
+    "slug": "saturn",
+    "name": "Saturn",
+    "aliases": [
+      "Saturn Corporation"
+    ],
+    "officialWebsite": "https://www.gm.com/"
+  },
+  {
+    "slug": "scion",
+    "name": "Scion",
+    "aliases": [
+      "Scion (Toyota)"
+    ],
+    "officialWebsite": "https://www.toyota.com/"
   },
   {
     "slug": "seat",
