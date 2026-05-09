@@ -5,8 +5,8 @@
 # Completeness Report
 
 - Brands: 75
-- Canonical SVGs present: 23/675
-- Generated SVGs expected from present canonical assets: 115
+- Canonical SVGs present: 26/675
+- Generated SVGs expected from present canonical assets: 130
 
 | Brand | Status | Canonical SVGs |
 |---|---:|---:|
@@ -48,7 +48,7 @@
 | Lamborghini | scaffolded | 0/9 |
 | Land Rover | scaffolded | 0/9 |
 | Leapmotor | scaffolded | 0/9 |
-| Lexus | scaffolded | 0/9 |
+| Lexus | partial | 3/9 |
 | Lincoln | scaffolded | 0/9 |
 | Lotus | scaffolded | 0/9 |
 | Lucid | scaffolded | 0/9 |
